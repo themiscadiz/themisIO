@@ -51,6 +51,7 @@
         text-align: left;   
         margin-left: 15rem;
         margin-top:5rem ;
+        margin-bottom: 4rem;
       }
 
       /* MENU BUTTON */
@@ -149,7 +150,7 @@
         justify-content: center;
         padding: 0rem 0rem 0rem 0rem;
         width: 100%;
-        margin-top: 3rem;
+        /* margin-top: 3rem; */
       }
 
       /* EACH PROJECT */
@@ -163,8 +164,7 @@
         justify-content: center;
         width: 65vw;
 
-        margin: 2rem;
-        /* margin-right: ; */
+        margin: 0rem 2rem 2rem 2rem;
         left: 20%;
         padding: 1rem;
         padding-left: 2rem;
@@ -264,9 +264,11 @@
        flex-direction: row;
        justify-content: right;
        width: 70vw;
-       /* margin: 2rem; */
+       margin: 2rem;
        margin-bottom: 7rem;
        left: 20%;
+
+ 
     }
       .half-exploration{
         position: relative;
@@ -374,27 +376,36 @@
        /* padding: 4rem; */
 
        width: 70vw;
-       margin: 2rem;
+       /* margin: 2rem; */
+       margin: 0rem 2rem 2rem 2rem;
        margin-bottom: 7rem;
        left: 20%;
+       padding-left: 0rem;
     }
 
     #about_info{
       position: relative;
-      /* background-color: turquoise; */
-      padding: 1rem;
-      /* margin: 0, 5%, 0, 5%; */
+      background-color: turquoise;
+      /* padding: 1rem; */
+      /* padding: 0rem 1rem 1rem 1rem; */
       width: 50%;
+      height: auto;
       text-align: left;
-      margin-left: 1rem;
+      padding-left: 2rem;
 
     }
     #profile_pic{
       position: relative;
-      /* background-color: yellowgreen; */
-      padding: 1rem;
+      background-color: yellowgreen;
+      /* padding: 1rem; */
+      margin: 0rem;
+      padding-left: 0rem;
       /* margin: 0, 5%, 0, 5%; */
       width: 50%;    
+    }
+
+    .profile_image{
+      margin: 0rem;
     }
 
     #button_resume{
