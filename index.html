@@ -1,342 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="main.css" >
+    <link rel="stylesheet" type="text/css" href="main.css">
     <script src="main.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <!-- adding p5js -->
-        <script src="p5.js"></script>
-        <script src="p5.dom.js"></script>
-        <script src="sketch.js"></script>
+    <!-- adding p5js -->
+    <script src="p5.js"></script>
+    <script src="p5.dom.js"></script>
+    <script src="sketch.js"></script>
+
+    <script src="profileSketch.js"></script>
 
     <title> Themis Garcia | Designer</title>
 
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <body>
+</head>
+
+<body>
 
     <section id="nav">
 
-  
-<!-- NAVIGATION MENU -->
-<!-- ≡ -->
-<div class="dropdown" alt="interactive menu on top. There is a ccessible menu on botton">
-    <!-- <section id = "home"></section> -->
-    <button onclick="myFunction()" class="dropbtn" id="btn">+</button>
-    <nav id="myDropdown" class="dropdown-content">
-        <a href="#nav">Home</a>
-        <a href="#projects">Projects</a>
-        <a href="#explorations">Explorations</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact me</a>
-        <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">RESUME</a>
 
-    </nav>
-    </div>
+        <!-- NAVIGATION MENU -->
+        <!-- ≡ -->
+        <div class="dropdown" alt="interactive menu on top. There is a ccessible menu on botton">
+            <!-- <section id = "home"></section> -->
+            <button onclick="myFunction()" class="dropbtn" id="btn">+</button>
+            <nav id="myDropdown" class="dropdown-content">
+                <a href="#nav">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#explorations">Explorations</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact me</a>
+                <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">RESUME</a>
+
+            </nav>
+            <p>Menu</p>
+        </div>
 
 
-    <section id="home">
-        <section id = "sketch" alt="animation of colors"> </section>
-             
-        <section id="intro">
-      
-            <h1  class="positionIntro">I'm Themis</h1>
-            <h2 class="positionIntro">Interaction Designer</h2>
-            <p class="positionIntro">There are many variations of passages of Lorem Ipsum available.</br> but the majority have suffered alteration in some form.</p>
-          
+        <section id="home">
+            <section id="sketch" alt="animation of colors"> </section>
+
+            <section id="intro">
+
+                <h1 class="positionIntro">I'm Themis</h1>
+                <h2 class="positionIntro">Interaction Designer</h2>
+                <p class="positionIntro">There are many variations of passages of Lorem Ipsum available.</br> but the
+                    majority have suffered alteration in some form.</p>
+
+            </section>
+
         </section>
-   
-        </section>
 
-       <!--  ---------------- -->
+        <!--  ---------------- -->
 
-      <!-- Project Section -->
-      <section id="projects">
-          <h2 class="title_section">Projects</h2>
+        <!-- Project Section -->
+        <section id="projects">
+            <h2 class="title_section">Projects</h2>
 
-          <div class="project_overview">
-              <!-- Connect Cube -->
-            <div class = "project_section">
+            <div class="project_overview">
+                <!-- Connect Cube -->
+                <div class="project_section">
 
-            <div class = "project_image">
-                <img src="assets/1.JPG" class = "project_image" alt="reading blocks" width="500">
-            </div>
-                
-                <div class="project_intro">
-                    <h1 class="project_intro_title">Connect Cube</h1>
-                    <h2 class="project_intro_sub">UX/UI IoT Development</h2>
-                    <p class="project_intro_p">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. </p>
-                    
-                    <a href="connectCube.html" class="button_view">View</a>
-                    
-                </div>
+                    <div class="project_image">
+                        <img src="assets/1.JPG" class="project_image" alt="reading blocks" width="500">
+                    </div>
 
-            </div>
-
-            <!-- Museum Accessibility -->
-            <div class = "project_section">
-
-                <div class = "project_image">
-                    <img src="assets/1.JPG" class = "project_image" alt="reading blocks" width="500">
-                </div>
-                    
                     <div class="project_intro">
                         <h1 class="project_intro_title">Connect Cube</h1>
                         <h2 class="project_intro_sub">UX/UI IoT Development</h2>
-                        <p class="project_intro_p">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. </p>
+                        <p class="project_intro_p">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form. </p>
+
                         <a href="connectCube.html" class="button_view">View</a>
 
                     </div>
 
-    
                 </div>
 
-            <!-- Reading Blocks -->
+                <!-- Museum Accessibility -->
+                <div class="project_section">
 
-            <!-- Pisicorre -->
-
-
-          </div>
-      </section>
-
-<!-- ---------------------- -->
-
-      <!-- Exploration Section -->
-<section id="explorations">
-
-    <h2 class="title_section">Explorations</h2>
-
-    <div id="explorations_overview">
-        <!--  -->
-        <div class="half-exploration">
-
-            <!-- Section exploration 1 -->
-            <div class="container_1">
-
-                <!-- Exploration 1 -->
-                <div class="sub-container_1">
-                    <p>Exploration 1</p>
-                 </div>
-                
-                <!-- Exploration 2 -->
-                <div class="sub-container_1">
-                    <p>Exploration 2</p>
-                    
+                    <div class="project_image">
+                        <img src="assets/1.JPG" class="project_image" alt="reading blocks" width="500">
                     </div>
+
+                    <div class="project_intro">
+                        <h1 class="project_intro_title">Connect Cube</h1>
+                        <h2 class="project_intro_sub">UX/UI IoT Development</h2>
+                        <p class="project_intro_p">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form. </p>
+                        <a href="connectCube.html" class="button_view">View</a>
+
+                    </div>
+
+
                 </div>
 
-            <!-- Exploration 3 -->
-        <div class="container_2">
-            <p >Exploration 3</p>
-        </div>
+                <!-- Reading Blocks -->
 
+                <!-- Pisicorre -->
+
+
+            </div>
+        </section>
+
+        <!-- ---------------------- -->
+
+
+
+        <h2>1st Modal</h2>
+
+        <!-- Trigger/Open The Modal -->
+        <button class="myBtn">Open Modal</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <h2>Modal Header</h2>
     </div>
-  
-
-        <!-- Section exploration 2 -->
-
-        <div class="half-exploration">
-         <!-- Exploration 4 -->
-         <div class="container_2">
-            <p>Exploration 4</p>
-            </div>
-      
-
-
-        
-
-            <div class="container_1">
-
-                <!-- Exploration 5 -->
-                <div class="sub-container_1">
-                    <p>Exploration 5</p>
-                 </div>
-               
-
-                <!-- Exploration 6 -->
-                <div class="sub-container_1">
-                    <p>Exploration 6</p>
-                 </div>
-            
-            </div>
-           
-        </div>
-  
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
     </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div> -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..</p>
+            </div>
 
-      
-</section>
+
+        </div>
+
+        <h2>2nd Modal</h2>
+
+        <!-- Trigger/Open The Modal -->
+        <button class="myBtn">Open Modal</button>
+
+        <!-- The Modal -->
+        <div id="myModal2" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..</p>
+            </div>
+        </div>
+
+        <h2>3nd Modal</h2>
+
+        <!-- Trigger/Open The Modal -->
+        <button class="myBtn">Open Modal 3</button>
+
+        <!-- The Modal -->
+        <div id="myModal2" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..3</p>
+            </div>
+        </div>
+
+        <script src="modals.js"></script>
+
+        <!-- ---------------------- -->
+
+
+        <!-- Exploration Section -->
+        <section id="explorations">
+
+            <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png" width="25%"> -->
+
+            <h2 class="title_section">Explorations</h2>
+
+            <div id="explorations_overview">
+                <!--  -->
+                <div class="half-exploration">
+
+                    <!-- Section exploration 1 -->
+                    <div class="container_1">
+
+                        <!-- Exploration 1 -->
+                        <!-- <button id="myBtnModal">Open Modal</button> -->
+                        <!-- Trigger/Open The Modal -->
+
+                        <button class="sub-container_1">
+                            <p>Exploration 1</p>
+                        </button>
+
+
+                        <!-- Exploration 2 -->
+                        <button class="sub-container_1">
+                            <p>Exploration 2</p>
+
+                        </button>
+                    </div>
+
+                    <!-- Exploration 3 -->
+                    <button class="container_2">
+                        <p>Exploration 3</p>
+                    </button>
 
 
 
- <!--  ---------------- -->
 
- <!-- With hover -->
 
-<!-- Exploration Section -->
-<section id="explorations">
+                </div>
 
-    <h2 class="title_section">Explorations</h2>
 
-    <div id="explorations_overview">
-        <!--  -->
-        <div class="half-exploration">
+                <!-- Section exploration 2 -->
 
-            <!-- Section exploration 1 -->
-            <div class="container_1">
+                <div class="half-exploration">
+                    <!-- Exploration 4 -->
+                    <div class="container_2" class="myBtn">
 
-                <!-- Exploration 1 -->
-                <div class="sub-container_1">
-                    <img src="assets/1.JPG" alt="placeHolder" class="image">
-                    <div class="overlay">
-                        <div class="text">Exploration 1</div>
+
+                        <p>Exploration 4</p>
+                    </div>
+
+
+
+
+
+                    <div class="container_1">
+
+                        <!-- Exploration 5 -->
+                        <div class="sub-container_1">
+                            <p>Exploration 5</p>
+                        </div>
+
+
+                        <!-- Exploration 6 -->
+                        <div class="sub-container_1">
+                            <p>Exploration 6</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!--  ---------------- -->
+        <!--  ---------------- -->
+        <!--  ---------------- -->
+
+        <!-- With hover -->
+
+        <!-- Exploration Section -->
+        <section id="explorations">
+
+            <h2 class="title_section">Explorations</h2>
+
+            <div id="explorations_overview">
+                <!--  -->
+                <div class="half-exploration">
+
+                    <!-- Section exploration 1 -->
+                    <div class="container_1">
+
+                        <!-- Exploration 1 -->
+                        <div class="sub-container_1">
+                            <img src="assets/1.JPG" alt="placeHolder" class="image">
+                            <div class="overlay">
+                                <div class="text">Exploration 1</div>
+                            </div>
+                        </div>
+
+                        <!-- Exploration 2 -->
+                        <div class="sub-container_1">
+                            <img src="assets/1.JPG" alt="placeHolder" class="image">
+                            <div class="overlay">
+                                <div class="text">Exploration 2</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Exploration 3 -->
+                    <div class="container_2">
+
+                        <img src="assets/1.JPG" alt="placeHolder" class="image">
+                        <div class="overlay">
+                            <div class="text">Exploration 3</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Section exploration 2 -->
+
+                <div class="half-exploration">
+
+                    <!-- Exploration 4 -->
+                    <div class="container_2">
+                        <img src="assets/1.JPG" alt="placeHolder" class="image">
+                        <div class="overlay">
+                            <div class="text">Exploration 4</div>
+                        </div>
+                    </div>
+
+                    <div class="container_1">
+
+                        <!-- Exploration 5 -->
+                        <div class="sub-container_1">
+                            <img src="assets/1.JPG" alt="placeHolder" class="image">
+                            <div class="overlay">
+                                <div class="text">Exploration 5</div>
+                            </div>
+                        </div>
+
+
+                        <!-- Exploration 6 -->
+                        <div class="sub-container_1">
+                            <img src="assets/1.JPG" alt="placeHolder" class="image">
+                            <div class="overlay">
+                                <div class="text">Exploration 6</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--  ---------------- -->
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="title_section">About</h2>
+            <div id="about_sec">
+                <div id="profile_pic">
+                    <!-- <p>imagenProfile</p> -->
+                    <section id="profilesketch" alt="animation of colors"> </section>
+
+                    <img src="assets/profilepic.JPG" class="profile_image" alt="reading blocks" width="500">
+
+                </div>
+                <div id="about_info">
+                    <h3>Currently</h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. I</p>
+                    <h3>Background</h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. I</p>
+
+                    <h3>I little bit more</h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. I</p>
+
+                    <!-- <a id="button_resume" href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download Resume</a> -->
+
+                    <a id="button_resume"
+                        href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download
+                        Resume</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--  ---------------- -->
+
+        <!-- Contact/Footer Section -->
+
+        <footer>
+            <h2 class="title_section">Contact Me</h2>
+            <div id="contact">
+                <!-- Contact Info -->
+                <div id="footer_info">
+
+                    <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank"
+                        class="footer_info_style">LinkedIn</a>
+                    <a href="https://github.com/themiscadiz" target="_blank" class="footer_info_style">Github</a>
+                    <a href="https://medium.com/@themis.ariana" target="_blank" class="footer_info_style">Medium</a>
+                    <a href="https://medium.com/@themis.ariana" target="_blank"
+                        class="footer_info_style">themiscadiz@gmail.com</a>
+                </div>
+
+                <!-- menu -->
+                <div id="footer_content">
+                    <div id="footer_nav">
+                        <nav id="footer_menu">
+                            <a href="#home" class="footer_info_style">Home</a>
+                            <a href="#projects" class="footer_info_style">Projects</a>
+                            <a href="#about" class="footer_info_style">About</a>
+                            <a href="#explorations" class="footer_info_style">Explorations</a>
+                        </nav>
                     </div>
                 </div>
-                
-
-                <!-- Exploration 2 -->
-                <div class="sub-container_1">
-                    <img src="assets/1.JPG" alt="placeHolder" class="image">
-                    <div class="overlay">
-                        <div class="text">Exploration 2</div>
-                    </div>
-                </div>
-
-            </div>
-            
-            
-
-            <!-- Exploration 3 -->
-            <div class="container_2">
-
-                <img src="assets/1.JPG" alt="placeHolder" class="image">
-                <div class="overlay">
-                     <div class="text">Exploration 3</div>
-                </div>
             </div>
 
-     </div>
-
-    
-
-       
-
-        <!-- Section exploration 2 -->
-
-        <div class="half-exploration">
-         <!-- Exploration 4 -->
-            <div class="container_2">
-                <img src="assets/1.JPG" alt="placeHolder" class="image">
-                <div class="overlay">
-                    <div class="text">Exploration 4</div>
-                </div>
+            <!-- footer info -->
+            <div id="p_footer">
+                <p>Themis Garcia 2020 | All rights reserved. </p>
             </div>
-
-            <div class="container_1">
-
-                <!-- Exploration 5 -->
-                <div class="sub-container_1">
-                    <img src="assets/1.JPG" alt="placeHolder" class="image">
-                    <div class="overlay">
-                        <div class="text">Exploration 5</div>
-                    </div>
-                </div>
-                
-
-                <!-- Exploration 6 -->
-                <div class="sub-container_1">
-                    <img src="assets/1.JPG" alt="placeHolder" class="image">
-                    <div class="overlay">
-                        <div class="text">Exploration 6</div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-           
-    </div>   
-</section>
-      
- <!--  ---------------- -->
-
-      <!-- About Section -->
-      <section id="about">
-        <h2 class="title_section">About</h2>
-        <div id="about_sec">
-            <div id="profile_pic">
-                <!-- <p>imagenProfile</p> -->
-                <img src="assets/profilepic.JPG" class = "profile_image" alt="reading blocks" width="500">
-
-            </div>
-            <div id="about_info">
-                <h3>Currently</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. I</p>
-                <h3>Background</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. I</p>
-
-                <h3>I little bit more</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. I</p>
-          
-                <!-- <a id="button_resume" href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download Resume</a> -->
-
-                <a id="button_resume" href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download Resume</a>
-            </div>
-
-         </div>
-    </section>
-
-     <!--  ---------------- -->
-
-    <!-- Contact/Footer Section -->
-    
-    <footer>
-        <h2 class="title_section">Contact Me</h2>
-        <div id="contact">
-             <!-- Contact Info -->
-             <div id="footer_info">
-            
-                <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank" class="footer_info_style">LinkedIn</a>
-                <a href="https://github.com/themiscadiz" target="_blank" class="footer_info_style">Github</a>
-                <a href="https://medium.com/@themis.ariana" target="_blank" class="footer_info_style">Medium</a>
-                <a href="https://medium.com/@themis.ariana" target="_blank" class="footer_info_style">themiscadiz@gmail.com</a>
-            
-            <!-- <ul>
-                <li> <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank">LinkedIn</a></li>
-                <li> <a href="https://github.com/themiscadiz" target="_blank">Github</a></li>
-                <li> <a href="https://medium.com/@themis.ariana" target="_blank">Medium</a></li>
-                <li>themiscadiz@gmail.com</li>
-            </ul> -->
-        </div>
-
-            <!-- menu -->
-            <div id="footer_content">
-                <div id="footer_nav">
-                <nav id="footer_menu">
-                    <a href="#home" class="footer_info_style">Home</a>
-                    <a href="#projects" class="footer_info_style">Projects</a>
-                    <a href="#about" class="footer_info_style">About</a>
-                    <a href="#explorations" class="footer_info_style">Explorations</a>
-                     
-                    <!-- <ul>
-                      <li> <a href="#home">Home</a></li>
-                      <li> <a href="#projects">Projects</a></li>
-                      <li> <a href="#about">About</a></li>
-                      <li> <a href="#explorations">Explorations</a></li>
-                    </ul> -->
-                  </nav>
-            </div>
-        </div>
-        </div>
-        
-        <!-- footer info -->
-        <div id="p_footer" >
-            <p>Themis Garcia  2020 | All rights reserved. </p>
-        </div>
-    </footer>
+        </footer>
 
 
-  </body>
+</body>
+
 </html>
