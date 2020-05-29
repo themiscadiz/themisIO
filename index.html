@@ -8,6 +8,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+
+
     <!-- adding p5js -->
     <script src="p5.js"></script>
     <script src="p5.dom.js"></script>
@@ -43,6 +45,24 @@
             <p>Menu</p>
         </div>
 
+        <section class="contac_header">
+            <div id="links"></div>
+            <!-- <div class="links"></div> -->
+            
+                <div class="contac_logos">
+
+                <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank" class="logos_style"><img
+                        src="assets/LI-In-Logo.png" class="logo_image" alt="" width="35"></a>
+                <a href="https://github.com/themiscadiz" target="_blank" class="logos_style"><img
+                        src="assets/githubLogo-01.png" class="logo_image" alt="" width="30"></a>
+                <a href="https://medium.com/@themis.ariana" target="_blank" class="logos_style"><img
+                        src="assets/mediumLogo.png" class="logo_image" alt="" width="30"></a>
+            
+        
+        </div>
+
+        </section>
+
 
         <section id="home">
             <section id="sketch" alt="animation of colors"> </section>
@@ -52,7 +72,7 @@
                 <h1 class="positionIntro">I'm Themis</h1>
                 <h2 class="positionIntro">Interaction Designer</h2>
                 <p class="positionIntro">There are many variations of passages of Lorem Ipsum available.</br> but the
-                    majority have suffered alteration in some form.</p>
+                    majority have suffered alteration in some form. </br>Wireframing, prototyping, thinking about interactions</p>
 
             </section>
 
@@ -112,148 +132,6 @@
         </section>
 
         <!-- ---------------------- -->
-
-
-
-        <h2>1st Modal</h2>
-
-        <!-- Trigger/Open The Modal -->
-        <button class="myBtn">Open Modal</button>
-
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-
-            <!-- Modal content
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">×</span>
-      <h2>Modal Header</h2>
-    </div>
-    <div class="modal-body">
-      <p>Some text in the Modal Body</p>
-      <p>Some other text...</p>
-    </div>
-    <div class="modal-footer">
-      <h3>Modal Footer</h3>
-    </div>
-  </div> -->
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Some text in the Modal..</p>
-            </div>
-
-
-        </div>
-
-        <h2>2nd Modal</h2>
-
-        <!-- Trigger/Open The Modal -->
-        <button class="myBtn">Open Modal</button>
-
-        <!-- The Modal -->
-        <div id="myModal2" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Some text in the Modal..</p>
-            </div>
-        </div>
-
-        <h2>3nd Modal</h2>
-
-        <!-- Trigger/Open The Modal -->
-        <button class="myBtn">Open Modal 3</button>
-
-        <!-- The Modal -->
-        <div id="myModal2" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Some text in the Modal..3</p>
-            </div>
-        </div>
-
-        <script src="modals.js"></script>
-
-        <!-- ---------------------- -->
-
-
-        <!-- Exploration Section -->
-        <section id="explorations">
-
-            <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png" width="25%"> -->
-
-            <h2 class="title_section">Explorations</h2>
-
-            <div id="explorations_overview">
-                <!--  -->
-                <div class="half-exploration">
-
-                    <!-- Section exploration 1 -->
-                    <div class="container_1">
-
-                        <!-- Exploration 1 -->
-                        <!-- <button id="myBtnModal">Open Modal</button> -->
-                        <!-- Trigger/Open The Modal -->
-
-                        <button class="sub-container_1">
-                            <p>Exploration 1</p>
-                        </button>
-
-
-                        <!-- Exploration 2 -->
-                        <button class="sub-container_1">
-                            <p>Exploration 2</p>
-
-                        </button>
-                    </div>
-
-                    <!-- Exploration 3 -->
-                    <button class="container_2">
-                        <p>Exploration 3</p>
-                    </button>
-
-
-
-
-
-                </div>
-
-
-                <!-- Section exploration 2 -->
-
-                <div class="half-exploration">
-                    <!-- Exploration 4 -->
-                    <div class="container_2" class="myBtn">
-
-
-                        <p>Exploration 4</p>
-                    </div>
-
-
-
-
-
-                    <div class="container_1">
-
-                        <!-- Exploration 5 -->
-                        <div class="sub-container_1">
-                            <p>Exploration 5</p>
-                        </div>
-
-
-                        <!-- Exploration 6 -->
-                        <div class="sub-container_1">
-                            <p>Exploration 6</p>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-        </section>
-
         <!--  ---------------- -->
         <!--  ---------------- -->
         <!--  ---------------- -->
@@ -272,32 +150,122 @@
                     <!-- Section exploration 1 -->
                     <div class="container_1">
 
+
+
+
+
                         <!-- Exploration 1 -->
+
                         <div class="sub-container_1">
-                            <img src="assets/1.JPG" alt="placeHolder" class="image">
-                            <div class="overlay">
-                                <div class="text">Exploration 1</div>
+                            <button class="myBtn">
+                                <img src="assets/1.JPG" alt="placeHolder" class="image">
+
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3>Watering helper</h3>
+                                        <p>rapid prototyping</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+
+                        <!-- The Modal -->
+                        <div id="myModal_1" class="modal">
+                            <div class="modal-content" data-rel="popup">
+                                <span class="close">&times;</span>
+                                <!-- <p>Some text in the Modal..1</p> -->
+                                <div class="exploration_section">
+
+                                    <div class="project_image">
+                                        <img src="assets/1.JPG" class="project_image" alt="reading blocks" width="500">
+                                    </div>
+
+                                    <div class="project_intro">
+                                        <!-- <h1 class="project_intro_title">Connect Cube</h1> -->
+                                        <h2 class="project_intro_sub">Watering Helper</h2>
+                                        <h3 class="exploration_intro_sub">UX/UI | IoT Development | Prototyping</h3>
+                                        <p class="project_intro_p">There are many variations of passages of Lorem Ipsum
+                                            available, but
+                                            the majority have suffered alteration in some form. There are many
+                                            variations of passages of Lorem Ipsum available, but
+                                            the majority have suffered alteration in some form. </p>
+                                        <a href="connectCube.html" class="button_view_article">Medium Article</a>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                         <!-- Exploration 2 -->
+
                         <div class="sub-container_1">
-                            <img src="assets/1.JPG" alt="placeHolder" class="image">
-                            <div class="overlay">
-                                <div class="text">Exploration 2</div>
+                            <button class="myBtn">
+                                <img src="assets/1.JPG" alt="placeHolder" class="image">
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3>Watering helper</h3>
+                                        <p>rapid prototyping</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+
+
+                        <!-- The Modal -->
+                        <div id="myModal_2" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <!-- <p>Some text in the Modal..2</p> -->
+                                <div class="exploration_section">
+
+                                    <div class="project_image">
+                                        <!-- <img src="assets/1.JPG" class="project_image" alt="reading blocks" width="500"> -->
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube-nocookie.com/embed/75uMMwPJKdw?controls=0"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+
+                                    <div class="project_intro">
+                                        <!-- <h1 class="project_intro_title">Connect Cube</h1> -->
+                                        <h2 class="project_intro_sub">Watering Helper</h2>
+                                        <h3 class="exploration_intro_sub">UX/UI | IoT Development | Prototyping</h3>
+                                        <p class="project_intro_p">There are many variations of passages of Lorem Ipsum
+                                            available, but
+                                            the majority have suffered alteration in some form. There are many
+                                            variations of passages of Lorem Ipsum available, but
+                                            the majority have suffered alteration in some form. </p>
+                                        <a href="connectCube.html" class="button_view_article">Medium Article</a>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                     </div>
 
+
                     <!-- Exploration 3 -->
                     <div class="container_2">
-
-                        <img src="assets/1.JPG" alt="placeHolder" class="image">
-                        <div class="overlay">
-                            <div class="text">Exploration 3</div>
+                        <button class="myBtn">
+                            <img src="assets/1.JPG" alt="placeHolder" class="image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <h3>Watering helper</h3>
+                                    <p>rapid prototyping</p>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <!-- The Modal -->
+                    <div id="myModal_3" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Some text in the Modal..3</p>
                         </div>
                     </div>
+
 
                 </div>
 
@@ -307,9 +275,22 @@
 
                     <!-- Exploration 4 -->
                     <div class="container_2">
-                        <img src="assets/1.JPG" alt="placeHolder" class="image">
-                        <div class="overlay">
-                            <div class="text">Exploration 4</div>
+                        <button class="myBtn">
+
+                            <img src="assets/1.JPG" alt="placeHolder" class="image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <h3>Watering helper</h3>
+                                    <p>rapid prototyping</p>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <!-- The Modal -->
+                    <div id="myModal_4" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Some text in the Modal..4</p>
                         </div>
                     </div>
 
@@ -317,18 +298,43 @@
 
                         <!-- Exploration 5 -->
                         <div class="sub-container_1">
-                            <img src="assets/1.JPG" alt="placeHolder" class="image">
-                            <div class="overlay">
-                                <div class="text">Exploration 5</div>
+                            <button class="myBtn">
+
+                                <img src="assets/1.JPG" alt="placeHolder" class="image">
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3>Watering helper</h3>
+                                        <p>rapid prototyping</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                        <!-- The Modal -->
+                        <div id="myModal_5" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>Some text in the Modal..5</p>
                             </div>
                         </div>
 
 
                         <!-- Exploration 6 -->
                         <div class="sub-container_1">
-                            <img src="assets/1.JPG" alt="placeHolder" class="image">
-                            <div class="overlay">
-                                <div class="text">Exploration 6</div>
+                            <button class="myBtn">
+                                <img src="assets/1.JPG" alt="placeHolder" class="image">
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h3>Watering helper</h3>
+                                        <p>rapid prototyping</p>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                        <!-- The Modal -->
+                        <div id="myModal_6" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>Some text in the Modal..6</p>
                             </div>
                         </div>
                     </div>
@@ -337,7 +343,7 @@
 
             </div>
         </section>
-
+        <script src="modals.js"></script>
         <!--  ---------------- -->
 
         <!-- About Section -->
@@ -361,10 +367,10 @@
                         alteration in some form, by injected humour, or randomised words which don't look even slightly
                         believable. I</p>
 
-                    <h3>I little bit more</h3>
+                    <!-- <h3>I little bit more</h3>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                         alteration in some form, by injected humour, or randomised words which don't look even slightly
-                        believable. I</p>
+                        believable. I</p> -->
 
                     <!-- <a id="button_resume" href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download Resume</a> -->
 
@@ -407,8 +413,16 @@
                 </div>
             </div>
 
+            <!-- <section class="contac_header">\ -->
+
             <!-- footer info -->
             <div id="p_footer">
+                <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank" class="logos_style"><img
+                    src="assets/LI-In-Logo.png" class="logo_image" alt="" width="35"></a>
+            <a href="https://github.com/themiscadiz" target="_blank" class="logos_style"><img
+                    src="assets/githubLogo-01.png" class="logo_image" alt="" width="30"></a>
+            <a href="https://medium.com/@themis.ariana" target="_blank" class="logos_style"><img
+                    src="assets/mediumLogo.png" class="logo_image" alt="" width="30"></a>
                 <p>Themis Garcia 2020 | All rights reserved. </p>
             </div>
         </footer>

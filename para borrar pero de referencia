@@ -1,0 +1,150 @@
+
+        <h2>1st Modal</h2>
+
+        <!-- Trigger/Open The Modal -->
+        <button class="myBtn">Open Modal</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div> -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..</p>
+            </div>
+
+
+        </div>
+
+        <h2>2nd Modal</h2>
+
+        <!-- Trigger/Open The Modal -->
+        <button class="myBtn">Open Modal2</button>
+
+        <!-- The Modal -->
+        <div id="myModal2" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..2</p>
+            </div>
+        </div>
+
+        <h2>3nd Modal</h2>
+
+        <!-- Trigger/Open The Modal -->
+        <!-- <button class="myBtn">Open Modal 3</button> -->
+
+        <!-- The Modal -->
+        <!-- <div id="myModal2" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..3</p>
+            </div>
+        </div> -->
+
+        <!-- <script src="modals.js"></script> -->
+
+        <!-- ---------------------- -->
+
+
+        <!-- Exploration Section -->
+        <section id="explorations">
+
+            <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png" width="25%"> -->
+
+            <h2 class="title_section">Explorations</h2>
+
+            <div id="explorations_overview">
+                <!--  -->
+                <div class="half-exploration">
+
+                    <!-- Section exploration 1 -->
+                    <div class="container_1">
+
+                        <!-- Exploration 1 -->
+                  
+
+        <!-- Trigger/Open The Modal -->
+        <button class="myBtn">Open Modal 3</button>
+
+        <!-- The Modal -->
+        <div id="myModal2" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..3</p>
+            </div>
+        </div>
+
+        
+                        <!-- <button class="sub-container_1">
+                            <p>Exploration 1</p>
+                        </button> -->
+
+
+                        <!-- Exploration 2 -->
+                        <button class="sub-container_1">
+                            <p>Exploration 2</p>
+
+                        </button>
+                    </div>
+
+                    <!-- Exploration 3 -->
+                    <button class="container_2">
+                        <p>Exploration 3</p>
+                    </button>
+
+
+
+
+
+                </div>
+
+
+                <!-- Section exploration 2 -->
+
+                <div class="half-exploration">
+                    <!-- Exploration 4 -->
+                    <div class="container_2" class="myBtn">
+
+
+                        <p>Exploration 4</p>
+                    </div>
+
+
+
+
+
+                    <div class="container_1">
+
+                        <!-- Exploration 5 -->
+                        <div class="sub-container_1">
+                            <p>Exploration 5</p>
+                        </div>
+
+
+                        <!-- Exploration 6 -->
+                        <div class="sub-container_1">
+                            <p>Exploration 6</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
