@@ -1012,7 +1012,7 @@ cursor: pointer;
   position: relative;
   /* display: flex; */
   width: 40%;
-  background-color: rgb(52, 219, 177);
+  /* background-color: rgb(52, 219, 177); */
   
 }
 .project_image_1{
@@ -1030,7 +1030,7 @@ cursor: pointer;
   position: relative;
   /* display: flex; */
   width: 60%;
-  background-color: rosybrown;
+  /* background-color: rosybrown; */
   text-align: left;
   padding: 4rem;
   padding-top: 0rem;
@@ -1062,7 +1062,7 @@ cursor: pointer;
 }
 
 .phase_1_part_2{
-  background-color: rgb(193, 223, 84);
+  /* background-color: rgb(193, 223, 84); */
   position: relative; 
   display: flex;
   flex-direction: row;

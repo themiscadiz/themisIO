@@ -17,7 +17,7 @@
 
     <script src="profileSketch.js"></script>
 
-    <title> Themis Garcia | Designer</title>
+    <title> Themis | Designer</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -36,18 +36,17 @@
             <nav id="myDropdown" class="dropdown-content">
                 <a href="#nav">Home</a>
                 <a href="#projects">Projects</a>
-                <a href="#explorations">Explorations</a>
+                <a href="#other_work">Explorations</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact me</a>
                 <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">RESUME</a>
 
             </nav>
-            <p>Menu</p>
+            <p id="menu_word" >Menu</p>
         </div>
 
-        <section class="contac_header">
+        <!-- <section class="contac_header">
             <div id="links"></div>
-            <!-- <div class="links"></div> -->
             
                 <div class="contac_logos">
 
@@ -61,28 +60,41 @@
         
         </div>
 
-        </section>
+        </section> -->
 
 
         <section id="home">
             <section id="sketch" alt="animation of colors"> </section>
+            
+            
 
             <section id="intro">
 
-                <h1 class="positionIntro">I'm Themis</h1>
-                <h2 class="positionIntro">UX/UI Designer</h2>
-                <p class="positionIntro_p">There are many variations of passages of Lorem Ipsum available.</br> but the
-                    majority have suffered alteration in some form. </br>Wireframing, prototyping, thinking about interactions</p>
-
+                <h1 class="positionIntro_h1">Hi! I'm Themis</h1>
+                <h2 class="positionIntro_h2">UX/UI Designer</h2>
+                <p class="positionIntro_p">I’m a graduate student at NYU’s Interactive Telecommunications Program meeting with amazing peers and mentors that care about the ethical intersection of tech, design and community(ITP).</p>
+                <p class="positionIntro_p_Highlight">Currently looking for opportunities on Product Design on a UX teams.</p>
+                
             </section>
+
+            <div class="top"><div class="title"><button class="arrow_button"><a href="#projects"><img src="assets/arrow-01.png"  class="arrow_image" alt="arrow"></a></button></div></div>
+
+           
+
+<script>$(window).scroll(function(){
+    $(".top").css("opacity", 1 - $(window).scrollTop() / 250);
+  });</script>
 
         </section>
 
+        
+<hr>
         <!--  ---------------- -->
 
         <!-- Project Section -->
         <section id="projects">
             <h2 class="title_section">Projects</h2>
+            <!-- <h2 class="positionIntro_h1">Selected Work</h2> -->
 
             <div class="project_overview">
                 <!-- Connect Cube -->
@@ -173,37 +185,31 @@
 
         <!-- ---------------------- -->
         <!--  ---------------- -->
-        <!--  ---------------- -->
-        <!--  ---------------- -->
 
-        <!-- With hover -->
 
         <!-- Exploration Section -->
-        <section id="explorations">
+        <section id="other_work">
 
-            <h2 class="title_section">Explorations</h2>
+            <h2 class="title_section">Prototyping Samples</h2>
 
-            <div id="explorations_overview">
+            <div id="other_work_overview">
                 <!--  -->
-                <div class="half-exploration">
+                <div class="half-other_work">
 
                     <!-- Section exploration 1 -->
                     <div class="container_1">
-
-
-
-
 
                         <!-- Exploration 1 -->
 
                         <div class="sub-container_1">
                             <button class="myBtn">
-                                <img src="assets/1.JPG" alt="placeHolder" class="image">
+                                <img src="assets/other_work/9.png" alt="placeHolder" class="image">
 
                                 <div class="overlay">
                                     <div class="text">
-                                        <h3>Watering helper</h3>
-                                        <p>rapid prototyping</p>
+                                    <div class="line_style"><p></p></div> 
+                                        <h3>Visualizing Hurricane Data</h3>
+                                        <p>Data Visualization, P5*js</p>
                                     </div>
                                 </div>
                             </button>
@@ -217,19 +223,20 @@
                                 <div class="exploration_section">
 
                                     <div class="project_image">
-                                        <img src="assets/1.JPG" class="project_image" alt="reading blocks" width="500">
+                                        <img src="assets/other_work/3.gif" class="project_image" alt="reading blocks" width="500">
                                     </div>
 
                                     <div class="project_intro">
                                         <!-- <h1 class="project_intro_title">Connect Cube</h1> -->
-                                        <h2 class="project_intro_sub">Watering Helper</h2>
-                                        <h3 class="exploration_intro_sub">UX/UI | IoT Development | Prototyping</h3>
-                                        <p class="project_intro_p">There are many variations of passages of Lorem Ipsum
-                                            available, but
-                                            the majority have suffered alteration in some form. There are many
-                                            variations of passages of Lorem Ipsum available, but
-                                            the majority have suffered alteration in some form. </p>
-                                        <a href="connectCube.html" class="button_view_article">Medium Article</a>
+                                        <h2 class="project_intro_sub">Visualizing Hurricane Data</h2>
+                                        <h3 class="exploration_intro_sub">Visual Design | P5*js | CSV Data | Data Visualization</h3>
+                                        <p class="small_text_note"><b>Tools: </b>P5*js, Figma</p>
+                                        <p class="project_intro_p"> In this sketch, I visualize different data from hurricane data sets between
+                                             2016 and 2017. I explored a CSV data set of Hurricanes of 159 storms samples from 2016 and 2017, 
+                                             originally sourced from from NOAA. I visualized the direction of the storm, distance from land, 
+                                             if the eye of the storm is on land, the strength of winds and length of reading related to the duration of storms. 
+                                              The selection of hurricanes is navigable with a sequence of thin rectangle buttons at the bottom. </p>
+                                        <a href="https://medium.com/computational-media/icm-media-final-project-c7c8acf88ddc" target="_blank" class="button_view_article">Medium Article</a>
 
                                     </div>
                                 </div>
@@ -240,11 +247,12 @@
 
                         <div class="sub-container_1">
                             <button class="myBtn">
-                                <img src="assets/1.JPG" alt="placeHolder" class="image">
+                                <img src="assets/other_work/16.png" alt="placeHolder" class="image">
                                 <div class="overlay">
                                     <div class="text">
-                                        <h3>Watering helper</h3>
-                                        <p>rapid prototyping</p>
+                                        <div class="line_style"><p></p></div> 
+                                        <h3>Voting Website</h3>
+                                        <p>Web Development Prototype</p>
                                     </div>
                                 </div>
                             </button>
@@ -259,131 +267,107 @@
                                 <div class="exploration_section">
 
                                     <div class="project_image">
-                                        <!-- <img src="assets/1.JPG" class="project_image" alt="reading blocks" width="500"> -->
-                                        <iframe width="560" height="315"
+                                        <img src="assets/other_work/4.gif" class="project_image" alt="reading blocks" width="500">
+                                        <!-- <iframe width="560" height="315"
                                             src="https://www.youtube-nocookie.com/embed/75uMMwPJKdw?controls=0"
                                             frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
+                                            allowfullscreen></iframe> -->
                                     </div>
 
                                     <div class="project_intro">
                                         
                                         <!-- <h1 class="project_intro_title">Connect Cube</h1> -->
-                                        <h2 class="project_intro_sub">Watering Helper</h2>
-                                        <h3 class="exploration_intro_sub">UX/UI | IoT Development | Prototyping</h3>
-                                        <p class="project_intro_p">There are many variations of passages of Lorem Ipsum
-                                            available, but
-                                            the majority have suffered alteration in some form. There are many
-                                            variations of passages of Lorem Ipsum available, but
-                                            the majority have suffered alteration in some form. </p>
-                                        <a href="connectCube.html" class="button_view_article">Medium Article</a>
+                                        <h2 class="project_intro_sub">Voting Website</h2>
+                                        <h3 class="exploration_intro_sub">Frontend/Backend | Database</h3>
+                                        <p class="small_text_note"><b>Tools: </b>Mongo DB Atlas, Postman, Node.js, Express.js, Javascript, CSS, HTML</p>
+                                        <p class="project_intro_p">The website its a basic voting online system where users vote for their favorite 
+                                            animal. 
+                                          Also, you can see how many votes each animal has in total and compare their percentage of votes 
+                                             to the other animals. For this project I went to the process of a design style guide and responsive design.The website uses node.js to create the database and have persistent data.</p>
+                                        <a href="https://github.com/themiscadiz/Final-dwd" target="_blank" class="button_view_article">Github Repository</a>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                    </div>
 
 
                     <!-- Exploration 3 -->
-                    <div class="container_2">
+
+                    <div class="sub-container_1">
                         <button class="myBtn">
-                            <img src="assets/1.JPG" alt="placeHolder" class="image">
+                            <img src="assets/other_work/12.png" alt="placeHolder" class="image">
+
                             <div class="overlay">
+                                <div class="line_style"><p></p></div>
                                 <div class="text">
-                                    <h3>Watering helper</h3>
-                                    <p>rapid prototyping</p>
+                                     
+                                
+                                    <h3>Resist! Food Sovereignty in Puerto Rico</h3>
+                                    <p>Tech, Design + Activisim</p>
                                 </div>
                             </div>
                         </button>
                     </div>
+
                     <!-- The Modal -->
-                    <div id="myModal_3" class="modal">
-                        <div class="modal-content">
+                    <div id="myModal_1" class="modal">
+                        <div class="modal-content" data-rel="popup">
                             <span class="close">&times;</span>
-                            <p>Some text in the Modal..3</p>
+                            <!-- <p>Some text in the Modal..1</p> -->
+                            <div class="exploration_section">
+
+                                <div class="project_image">
+                                    <img src="assets/other_work/6.png" class="project_image" alt="reading blocks" width="500">
+                                </div>
+
+                                <div class="project_intro">
+                                    <!-- <h1 class="project_intro_title">Connect Cube</h1> -->
+                                    <h2 class="project_intro_sub">Resist! Designing for Food Sovereignty in Puerto Rico</h2>
+                                    <h3 class="exploration_intro_sub"> Tech + Activism | UX Research | UX Design</h3>
+                                    <!-- <p class="small_text_note"><b>P: </b>Figma</p> -->
+                                    <p class="project_intro_p">
+                                          
+                                        
+                                        <b>This project intends to strengthen food sovereignty the movement in Puerto Rico. </b></br>
+                                        Constraints of massive importation, poverty, and 
+                                        climate change on
+                                        the island, generate a need to look for alternatives for a sustainable local economy. With this 
+                                        in mind, I ask,  <i>it is possible to design 
+                                        a system that encourages solidarity with local and rural economies?</i>
+                                        </br></br>Through this process I envision a platform where consumers and farmers can have a direct relationship. This direct connection between farmers and their community would improve the visibility of farmers,
+                                        and shorten the chain of access to locally grown crops.
+                                       </p>
+                                    <a href="https://medium.com/@themis.ariana/resist-designing-for-food-sovereignty-in-puerto-rico-4612c7ef43cb" target="_blank" class="button_view_article">Medium Article</a>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-
+                    </div>
+                
                 </div>
 
-                <!-- Section exploration 2 -->
+                <!-- </div> -->
+            </section>
 
-                <div class="half-exploration">
-
-                    <!-- Exploration 4 -->
-                    <div class="container_2">
-                        <button class="myBtn">
-
-                            <img src="assets/1.JPG" alt="placeHolder" class="image">
-                            <div class="overlay">
-                                <div class="text">
-                                    <h3>Watering helper</h3>
-                                    <p>rapid prototyping</p>
-                                </div>
-                            </div>
-                        </button>
-                    </div>
-                    <!-- The Modal -->
-                    <div id="myModal_4" class="modal">
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <p>Some text in the Modal..4</p>
-                        </div>
-                    </div>
-
-                    <div class="container_1">
-
-                        <!-- Exploration 5 -->
-                        <div class="sub-container_1">
-                            <button class="myBtn">
-
-                                <img src="assets/1.JPG" alt="placeHolder" class="image">
-                                <div class="overlay">
-                                    <div class="text">
-                                        <h3>Watering helper</h3>
-                                        <p>rapid prototyping</p>
-                                    </div>
-                                </div>
-                            </button>
-                        </div>
-                        <!-- The Modal -->
-                        <div id="myModal_5" class="modal">
-                            <div class="modal-content">
-                                <span class="close">&times;</span>
-                                <p>Some text in the Modal..5</p>
-                            </div>
-                        </div>
+        
+        <!--  ---------------- -->
 
 
-                        <!-- Exploration 6 -->
-                        <div class="sub-container_1">
-                            <button class="myBtn">
-                                <img src="assets/1.JPG" alt="placeHolder" class="image">
-                                <div class="overlay">
-                                    <div class="text">
-                                        <h3>Watering helper</h3>
-                                        <p>rapid prototyping</p>
-                                    </div>
-                                </div>
-                            </button>
-                        </div>
-                        <!-- The Modal -->
-                        <div id="myModal_6" class="modal">
-                            <div class="modal-content">
-                                <span class="close">&times;</span>
-                                <p>Some text in the Modal..6</p>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
 
-            </div>
-        </section>
+
+
+
+
+
+        <!--  ---------------- -->
+
+        
         <script src="modals.js"></script>
         <!--  ---------------- -->
 
@@ -395,18 +379,23 @@
                     <!-- <p>imagenProfile</p> -->
                     <section id="profilesketch" alt="animation of colors"> </section>
 
-                    <img src="assets/profilepic.JPG" class="profile_image" alt="reading blocks" width="500">
+                    <img src="assets/about/1.jpeg" class="profile_image" alt="reading blocks">
 
                 </div>
                 <div id="about_info">
                     <h3>Currently</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                        believable.</p>
+                    <p>I’m a Designer who cares deeply about accessibility, education, and community empowerment through product development. 
+                        I’m a graduate student at NYU’s Interactive Telecommunications Program (ITP). 
+                        </p>
                     <h3>Background</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                        believable.</p>
+                    <p>Previously I completed a graduate program in  Usability, UX and Interaction Design from Universitat Pompeu Fabra from Barcelona, Spain. </p>
+                    <p>I am grateful to have the opportunity to work engage and develop educational material for children in the austistic spectrum. Later on, I work in a small agency that represents people with a diversity of disabilities. In both of these opportunities offered the role to engage with people to create more accessible, approachable and empathic product and service and.
+                    </p> 
+                    
+                        <p>I have collaborated in many different projects to empower design and community development in Puerto Rico. From the co-founder of the Puerto Rico  non-profit hackerspace developing communal learning space,  workshops and events to collaborate to create the most affordable solar kit generator possible (en instruction on how to build it) just after hurricane Maria.
+                        From those experiences in balance with a creative and tech drive, give me the unique experience to apply for in products.
+                
+                        </p>
 
                     <!-- <h3>I little bit more</h3>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
@@ -416,7 +405,7 @@
                     <!-- <a id="button_resume" href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download Resume</a> -->
 
                     <a id="button_resume"
-                        href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download
+                        href="assets/resume_themis_garcia.pdf " target="_blank">View
                         Resume</a>
                 </div>
 
@@ -464,7 +453,7 @@
                     src="assets/githubLogo-01.png" class="logo_image" alt="" width="30"></a>
             <a href="https://medium.com/@themis.ariana" target="_blank" class="logos_style"><img
                     src="assets/mediumLogo.png" class="logo_image" alt="" width="30"></a>
-                <p>Themis Garcia 2020 | All rights reserved. </p>
+                <p>© 2020 Themis Garcia. All rights reserved. </p>
             </div>
         </footer>
 

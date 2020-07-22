@@ -43,10 +43,10 @@ function windowResized(){
 
 
 function draw(){
-    // background(240);
-
-    background(232, 231, 228);
-
+    background(240);
+    // background(232, 231, 228);
+    background(244, 245, 245);
+    // background(245, 235, 240);
 
     noFill();
   stroke(0);
