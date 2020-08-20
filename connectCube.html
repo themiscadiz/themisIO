@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
+
+
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="projects_main.css">
     <script src="main.js"></script>
@@ -17,7 +24,7 @@
 
     <script src="profileSketch.js"></script> -->
 
-    <title> Themis Garcia | Designer</title>
+    <title> Themis Garcia | UX Designer </title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,90 +33,60 @@
 <body>
 
 
+    <section id="nav">
 
 
-    <!-- NAVIGATION MENU -->
-    <!-- ≡ -->
-    <div class="dropdown" alt="interactive menu on top. There is a ccessible menu on botton">
-        <!-- <section id = "home"></section> -->
-        <button onclick="myFunction()" class="dropbtn" id="btn">+</button>
-        <nav id="myDropdown" class="dropdown-content">
+        <!-- NAVIGATION MENU -->
+        <!-- ≡ -->
+        <div class="dropdown" alt="">
+            <!-- <section id = "home"></section> -->
+            <button onclick="myFunction()" class="dropbtn" id="btn">+</button>
+            <nav id="myDropdown" class="dropdown-content">
+                <a href="http://localhost:3000/">Home</a>
+                <a href="http://localhost:3000/#projects">Projects</a>
+                <a href="http://localhost:3000/#other_work">Explorations</a>
+                <a href="http://localhost:3000/#about">Who am I</a>
+                <a href="http://localhost:3000/#contact">Say Hi!</a>
+                <!-- <a href="assets/resume_themis_garcia.pdf" target="_blank">RESUME</a>  -->
 
-            <a href="index.html">Home</a>
-            <a href="http://localhost:3000/#projects">Projects</a>
-            <a href="#explorations">Explorations</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact me</a>
-            <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">RESUME</a>
-
-
-            <p>Menu</p>
-    </div>
-
-    <section class="contac_header">
-        <div id="links"></div>
-        <!-- <div class="links"></div> -->
-
-        <div class="contac_logos">
-
-            <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank" class="logos_style"><img
-                    src="assets/LI-In-Logo.png" class="logo_image" alt="" width="35"></a>
-            <a href="https://github.com/themiscadiz" target="_blank" class="logos_style"><img
-                    src="assets/githubLogo-01.png" class="logo_image" alt="" width="30"></a>
-            <a href="https://medium.com/@themis.ariana" target="_blank" class="logos_style"><img
-                    src="assets/mediumLogo.png" class="logo_image" alt="" width="30"></a>
-
+            </nav>
+            <p id="menu_word" >Menu</p>
         </div>
-
     </section>
-
 
     <section class="overview_project_page">
 
-        <!-- <section class="main_img_cover"> -->
             <div>
-                <img src="assets/connect/000.png" class="project_section_image" alt="reading blocks" width="50%">
+                <img src="assets/connect/1.Cover-Project.png" class="project_section_image" alt="Two set of blocks. One is a screen an the other has the drawing of a plant and the other with a coffee mug." width="50%">
             </div>
-        <!-- </section> -->
 
         <section class="intro_section">
 
-            <h1 class="positionIntro">Connect Cube</h1>
-
-            <!-- <h2 class="positionIntro">Connect Cube is a set of objects that allow you to maintain a</br>connection to
-                your relatives by sharing a moment. </h2> -->
+            <h1 class="positionIntro_cover_tittle">Connect Cube</h1>
+            <h2 class="positionIntro_cover_tittle_h2">Maintain a connection to
+                loved ones </br> by sharing a moment. </h2>
 
         </section>
 
     </section>
 
 
-
-    <!-- <section class="main_img">
-        <div>
-            <img src="assets/connect/0.png" class="project_section_image" alt="reading blocks" width="50%">
-        </div>
-    </section> -->
-
     <section class="short_info_project">
 
         <div class="part_1">
-            <h2 class="project_intro_sub">UX/UI IoT Development</h2>
+            <h2 class="project_intro_sub">Overview</h2>
             <p class="project_intro_p">For families who live far apart from each other, it’s a constant challenge to
                 maintain an meaningful connection. They must actively make the effort to stay in contact. For our closest
                 relationships, a connection goes beyond active communication. If there was a better way to share moments
-                from a distance, then families could feel like they are together. <b>This project its aimed to explore 
-                implicit communications with our families while living far apart</b>
+                from a distance, then families could feel like they are together. <b>Connect Cube explores 
+                implicit communication with our families while living far apart</b>
             </p>
-            <!-- <p class="project_intro_p">This project is intended to create a unique interaction for communicating with
-                our loved ones. Inspired by our current events, I wonder in which ways we can connect more, but without
-                actively interfering in our daily routine. My approach was to create a set of cubes that, when a person
-                joins them together, can send a message to another person.</p> -->
+     
         </div>
 
         <div class="part_2">
             <ul>
-                <li><b>Process: </b></br>User Research (surveys, Interviews), Persona, Experience Map, Storyboard, User
+                <li><b>Process: </b></br>User Research (Surveys, Interviews), Persona, Experience Map, Storyboard, User
                     Flow,
                     Mood board, Wireframes, User Testing, Digital Fabrication, Prototyping </li>
                 <li><b>Tools: </b></br>Figma, Fusion 360, Javascript, MongoDB, Arduino, Ps, Ai, Google Forms</li>
@@ -136,15 +113,15 @@
 
 
             <div class="project_image_space_1">
-                <img src="assets/connect/8.png" class="project_image_1" alt="reading blocks">
+                <img src="assets/connect/8.png" class="project_image_1" alt="Icon of a survey.">
             </div>
 
             <div class="phase1_info_1">
 
                 <h2 class="intro_sub">Discovery research</h2>
-                <p class="intro_p">I worked on a <b>survey</b> and <b>interviews</b> to better understand what are the
-                    communication behaviors of the potential users with their relatives, gain more knowledge about the
-                    feeling to be connected and which ways they feel that they could enhance that connection. </p>
+                <p class="intro_p">I conducted <b>surveys</b> and <b>interviews</b> to understand the
+                    communication behaviors between potential users and their relatives, and gain more knowledge about the
+                    need to be connected and which ways they feel that they could enhance that connection. </p>
 
             </div>
 
@@ -152,48 +129,8 @@
 
         <!-- <h2 class="subtitle">Persona</h2> -->
         <div class="feature_space">
-            <img src="assets/connect/9.png" class="main_image" alt="reading blocks">
+            <img src="assets/connect/9.png" class="main_image" alt="Screenshot of the survey results, showed most survey people has between 35-44 years, call their parents by phone in a daily basis.">
         </div>
-
-
-
-
-        <!-- 80/20 -->
-        <!-- <div class="phase_1_part_2">
-
-            <div class="phase_1_info_2">
-
-                <h2 class="intro_sub">User Interviews and Surveys
-                </h2>
-                <p class="intro_p"> The questions were oriented about how she feels about the quality of communication,
-                    what other options she could consider and what other ways she can envision her communication. </p>
-
-            </div>
-
-            <div class="project_image_2">
-                <img src="" class="project_image_1" alt="">
-            </div>
-
-        </div> -->
-
-
-
-
-
-        <!-- 80/20 -->
-        <!-- <div class="phase_1_part_2">
-
-            <div class="project_image_2">
-                <img src="assets/connect/2.png" class="project_image_1" alt="">
-            </div>
-
-            <div class="phase_1_info_2">
-
-                <h2 class="intro_sub">"I'd love to have a way to communicate with my parents as if we are in the same
-                    house." </br> - Sabrina</h2>
-
-            </div>
-        </div> -->
 
         <!-- 80/20 -->
         <div class="phase_1_part_2">
@@ -202,16 +139,16 @@
 
                 <h2 class="intro_sub">Define
                 </h2>
-                <p class="intro_p">The surveys and the interview let me highlight the possible, their behaviors and
-                    motivations. I concentrated on the people that most fill the survey, woman below 45, mostly they
+                <p class="intro_p">The surveys and the interviews let me highlight their behaviors and
+                    motivations. I focused on the demografic, woman below 45, who mostly 
                     communicate with their parents and close relatives on a daily basis to make sure that they are ok.
-                    <b>Persona, Empathy Map and Experience Map was developed from the discovery phase</b>.
+                    <b>A Persona, Empathy Map and Experience Map was developed from the discovery phase</b>.
                 </p>
 
             </div>
 
             <div class="project_image_2">
-                <img src="" class="project_image_1" alt="">
+                <!-- <img src="" class="project_image_1" alt=""> -->
             </div>
 
         </div>
@@ -223,13 +160,13 @@
             <div class="phase_1_info_2">
 
                 <h2 class="intro_sub">User Interviews - Findings</h2>
-                <p class="intro_p"> The research were oriented about how she feels about the quality of communication,
-                    what other options she could consider and what other ways she can envision her communication. </p>
+                <p class="intro_p"> The research was oriented around how people feel about the quality of communication,
+                    what other options they could consider and what other ways they can envision communication with loved ones. </p>
 
             </div>
 
             <div class="project_image_2">
-                <img src="assets/connect/11.png" class="project_image_1" alt="reading blocks">
+                <!-- <img src="assets/connect/11.png" class="project_image_1" alt="Handmade sketch of cubes."> -->
             </div>
 
         </div>
@@ -237,39 +174,15 @@
 
         <h2 class="subtitle">Persona</h2>
         <div class="feature_space">
-            <img src="assets/connect/6.png" class="main_image" alt="reading blocks">
+            <img src="assets/connect/6.png" class="main_image" alt="Persona is a 37 years old woman, cares for her family even living far away.">
         </div>
         <h2 class="subtitle">Experience Map</h2>
         <div class="feature_space">
-            <img src="assets/connect/7.png" class="main_image" alt="reading blocks">
+            <img src="assets/connect/7.png" class="main_image" alt="The experience map shows the process of calling a family member. Showing her frustrations and moivation through the process.">
         </div>
-
-     
-
-
-        <!-- 40/60 -->
-        <!-- <div class="phase_1_part_3">
-
-            <div class="phase_1_info_3">
-
-                <h2 class="intro_sub">UX/UI IoT Development</h2>
-                <p class="intro_p">There are many variations of passages of Lorem Ipsum available, but
-                    the majority have suffered alteration in some form. </p>
-
-            </div>
-            <div class="project_image_3">
-                <img src="assets/1.JPG" class="project_image" alt="reading blocks" width="500">
-            </div>
-
-        </div> -->
-
-
 
     </section>
 
-    <!-- ---------------------- -->
-
-    <!--  ---------------- -->
 
     <!-- Project Section -->
     <h1 class="title_section">Design process</h1>
@@ -282,16 +195,16 @@
 
 
             <div class="project_image_space_1">
-                <img src="assets/connect/11.png" class="project_image_1" alt="reading blocks">
+                <img src="assets/connect/11.png" class="project_image_1" alt="Handmade sketch of cubes.">
             </div>
 
             <div class="phase1_info_1">
 
                 <h2 class="intro_sub">Ideate</h2>
-                <p class="intro_p">Inspired by our current event that we live with with concious social distancing, this
-                    project is intended to create a unique interaction that strengthens our connections. I worked on a
-                    series of <b>sketches</b> for this concept. My approach was
-                    to create a set of cubes that, when a person joins them together, can send a message to another
+                <p class="intro_p">Inspired by our current socially distant lives, I searched for a unique interaction to strengthen our connections. A
+                    series of <b>sketches</b> helped me visualize the concept and possible interaction models. 
+                    
+                    This process resulted in a set of cubes that, when a person joins them together, send a message to another
                     person.
                 </p>
 
@@ -300,58 +213,55 @@
         </div>
 
 
-
-
-
-        <!-- 80/20 -->
-        <!-- <div class="phase_1_part_2">
-
-            <div class="phase_1_info_2">
-
-                <h2 class="intro_sub">Sketches
-                </h2>
-                <p class="intro_p">I’ve been sketching around a physical object that helps establish a way to share
-                    daily moments with our loved ones. Physical interaction would be helpful to ease the use for a wide
-                    range of age groups.
-                </p>
-
-            </div>
-
-            <div class="project_image_2">
-                <img src="assets/connect/10.png" class="project_image_1" alt="">
-            </div>
-
-
-
-        </div> -->
-
         <div class="phase_1_part_2">
             <div class="phase_1_info_2">
                 <h2 class="intro_sub">Storyboard
                 </h2>
-                <p class="intro_p">The story takes place in their homes. They make a connection with the blocks. In each
-                    frame, I want to communicate the casualness of using the device and sharing the moment.</p>
+                <p class="intro_p">The story takes place in their homes. They make a connection using the cubes.
+                 The storyboard illustrates the casual use of the cubes and how easy it is to share a moment.</p>
             </div>
 
             <div class="project_image_2">
-                <img src="" class="project_image_1" alt="">
+                <!-- <img src="" class="project_image_1" alt=""> -->
             </div>
         </div>
 
         <div class="feature_space">
-            <img src="assets/connect/13.png" class="main_image_story" alt="reading blocks">
+            <img src="assets/connect/13.png" class="main_image_story" alt="Dauther thinks about mom and sees the cubes. She attaches the coffee cube to send her mom a message.">
         </div>
         <div class="feature_space">
-            <img src="assets/connect/14.png" class="main_image_story" alt="reading blocks">
+            <img src="assets/connect/14.png" class="main_image_story" alt="Mom is reading a book and sees that her daughter send a message. respond the message connecting a cube with a book symbol.">
         </div>
         <div class="feature_space">
-            <img src="assets/connect/15.png" class="main_image_story" alt="reading blocks">
+            <img src="assets/connect/15.png" class="main_image_story" alt="Daughter get the ubtade with the screen cube that she has.">
         </div>
 
 
 
-        <!-- UX DESIGN -->
-        <!-- <h2 class="subtitle"></h2> -->
+
+
+        <div class="phase_1_part_1">
+
+            <div class="phase1_info_1">
+                <h2 class="intro_sub">User Interaction</h2>
+                <p class="intro_p">The person is invited to join objects together to share their 
+                    activities with another person. This message consists of an activity they 
+                    want the other person to know about, an emotion or a feeling. 
+                    <b>The activity cubes are interchangable.</b>
+                </p>
+            </div>
+
+
+            <div class="project_image_space_1">
+                <img src="assets/connect/0.Cover-01.png" class="project_image_1" alt="Two set of blocks. One is a screen an the other has the drawing of a plant.">
+            </div>
+
+        
+        </div>
+
+        <div class="feature_space">
+            <img src="assets/connect/22.png" class="main_image_story" alt="diagram how the connection with cubes work. Joint the cube to send a message to the other user.">
+        </div>
 
 
 
@@ -359,18 +269,24 @@
 
             <div class="phase_1_info_2">
 
-                <h2 class="intro_sub">UX Design
+
+                <h2 class="intro_sub">UX Design Process
                 </h2>
-                <p class="intro_p">I developed how would flow the main interaction. The interaction is personal. The
-                    person is invited to join the objects to share their activities with another person that has the
-                    same system of cubes. This message consists of activities that they want the other person to know,
-                    an emotion or perhaps a feeling. I developed a <b>Moodboard</b>, <b>User Flow</b> and
+                <p class="intro_p">I developed a <b>Moodboard</b>, a <b>User Flow</b> and
                     <b>Wireframes</b>.
                 </p>
+
+
+
+               
             </div>
 
             <div class="project_image_2">
-                <img src="assets/connect/21.png" class="project_image_1" alt="">
+
+
+
+                <img src="assets/connect/21.png" class="project_image_1" alt="Moodboard with different images of plant and patterns with earthy tones.">
+
             </div>
 
         </div>
@@ -383,22 +299,25 @@
             <div class="phase1_info_1">
 
                 <h2 class="intro_sub">User Flow</h2>
-                <p class="intro_p">The idea behind the activities is to share a moment with the other user. User 1 is
-                    the first to initiate the interaction, and the User 2 respond to the share connection.
+                <p class="intro_p">A typical user flow goes as follows: 
+                </br>
+                    User 1 is
+                    the first to initiate the interaction, and User 2 responds to the share connection.
+                </p>
 
             </div>
 
 
-            <div class="project_image_space_1">
+            <!-- <div class="project_image_space_1">
                 <img src="" class="project_image_1" alt="">
-            </div>
+            </div> -->
 
 
 
         </div>
 
         <div class="feature_space">
-            <img src="assets/connect/16.png" class="main_image" alt="reading blocks">
+            <img src="assets/connect/16.png" class="main_image" alt="User flow of the physical interaction.">
         </div>
 
         <div class="phase_1_part_1">
@@ -407,61 +326,33 @@
 
                 <h2 class="intro_sub">App User Flow</h2>
                 <p class="intro_p"><b>Activation Process</b></p>
-                <p class="intro_p">Therefore the product would have an app where the user can register the blocks and
+                <p class="intro_p">The product includes an app where the users can register their cubes and
                     request connections with others.</p>
 
             </div>
 
 
             <div class="project_image_space_1">
-                <img src="" class="project_image_1" alt="">
+                <!-- <img src="" class="project_image_1" alt=""> -->
             </div>
 
 
 
         </div>
 
-        <!-- <div class="feature_space">
-            <img src="assets/connect/17.png" class="main_image" alt="reading blocks">
-        </div> -->
 
         <div class="feature_space">
-            <img src="assets/connect/18.png" class="main_image" alt="reading blocks">
+            <img src="assets/connect/18.png" class="main_image" alt="App user flow of the activation process on phone.">
         </div>
         <div class="feature_space">
-            <img src="assets/connect/19.png" class="main_image" alt="reading blocks">
+            <img src="assets/connect/19.png" class="main_image" alt="App user flow of the activation process on phone.">
         </div>
         <div class="feature_space">
-            <img src="assets/connect/20.png" class="main_image" alt="reading blocks">
+            <img src="assets/connect/20.png" class="main_image" alt="App user flow of the activation process on phone.">
         </div>
 
 
 
-        <!-- 50/50 -->
-<!-- 
-        <div class="phase_1_part_1">
-
-
-
-            <div class="project_image_space_1">
-
-                <img src="assets/connect/11.png" class="project_image_1" alt="reading blocks">
-            </div>
-
-            <div class="phase1_info_1">
-
-
-                <h2 class="intro_sub">User Flow</h2>
-                <p class="intro_p">I developed how would flow the main interaction. User 1 is the first to initiate the
-                    interaction, and the User 2 respond to the share connection.
-                    So far the activity blocks represent the activity that the user is doing at the moment. The idea
-                    behind the activities is to share a moment with the other user.
-
-                </p>
-
-            </div>
-
-        </div> -->
 
     </section>
 
@@ -474,11 +365,11 @@
 
         <!-- 50/50 -->
 
-        <div class="phase_1_part_1">
+        <!-- <div class="phase_1_part_1">
 
 
             <div class="project_image_space_1">
-                <img src="assets/connect/0.png" class="project_image_1" alt="reading blocks">
+                <img src="assets/connect/0.Cover-01.png" class="project_image_1" alt="reading blocks">
             </div>
 
             <div class="phase1_info_1">
@@ -490,32 +381,23 @@
 
         <div class="feature_space">
             <img src="assets/connect/22.png" class="main_image_story" alt="reading blocks">
-        </div>
+        </div> -->
     
 
     <div class="phase_1_part_2">
-        <!-- <div class="phase_1_info_2">
-            <h2 class="intro_sub">Sistem Diagram
-            </h2>
-            <p class="intro_p">The story takes place in their homes. They make a connection with the blocks. In each
-                frame, I want to communicate the casualness of using the device and sharing the moment.</p>
-        </div>
-
-        <div class="project_image_2">
-            <img src="" class="project_image_1" alt="">
-        </div> -->
+     
     </div>
     <h2 class="subtitle">Hardware Diagram </h2>
     <p class="subtitle">Hardware components of the main cube and activity cube.</p>
     <div class="feature_space">
-        <img src="assets/connect/23.png" class="main_image" alt="reading blocks">
+        <img src="assets/connect/23.png" class="main_image" alt="Hardware Diagram of the cubes.">
     </div>
 
     <h2 class="subtitle">Software Architecture</h2>
     <p class="subtitle">Software flow of main cube and activity cube.</p>
 
     <div class="feature_space">
-        <img src="assets/connect/24.png" class="main_image_story" alt="reading blocks">
+        <img src="assets/connect/24.png" class="main_image" alt="Diagram of the Software Architecture and backend system of the cubes.">
     </div>
 
 
@@ -524,15 +406,6 @@
     <div class="phase_1_part_1">
 
 
-        <!-- <div class="project_image_space_1">
-            <img src="assets/connect/26.gif" class="project_image_1" alt="reading blocks">
-        </div>
-
-        <div class="phase1_info_1">
-            <h2 class="intro_sub">Prototype</h2>
-            <p class="intro_p">Because the pandemic of Covid 19 I have limitations to work on the fabrication of this project. However I worked in the backend system and prototyping. 
-            </p>
-        </div> -->
     </div>
 
     <h2 class="subtitle">Prototyping</h2>
@@ -542,8 +415,7 @@
                 class="footer_info_style">Github Repository.</a></p>
 
     <div class="feature_space">
-        <!-- <img src="assets/connect/24.png" class="main_image_story" alt="reading blocks"> -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/kQl6b6h-mxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/kQl6b6h-mxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
@@ -551,8 +423,7 @@
     <!-- <p class="subtitle">Software flow of main cube and activity cube.</p> -->
 
     <div class="feature_space">
-        <!-- <img src="assets/connect/24.png" class="main_image_story" alt="reading blocks"> -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/CJtzfuY95V8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/CJtzfuY95V8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
  
@@ -560,33 +431,31 @@
 </section>
 
 
-    <!--  ---------------- -->
+<section class="navigation_projects">
+
+    <nav>
+        <a href="connectCube.html">Connect Cube</a>
+        <a href="pisicorre.html">Pisicorre</a>
+        <a href="readingBlocks.html">Reading Blocks</a>
+        <a href="highlighter.html">Highlighter</a>
+
+    </nav>
 
 
-    <!--  ---------------- -->
-    <!--  ---------------- -->
-    <!--  ---------------- -->
+   
+   
+</section>
 
 
-    <!--  ---------------- -->
-    <section class="navigation_projects">
-        <nav>
-            <a href="connectCube.html">Connect Cube</a>
-            <a href="connectCube.html">Museum Accessibility Tool</a>
-            <a href="connectCube.html">Reading Blocks</a>
-            <a href="connectCube.html">Pisocorre</a>
 
-        </nav>
-
-    </section>
 
     <!-- Contact/Footer Section -->
 
     <footer>
-        <h2 class="title_section">Contact Me</h2>
-        <div id="contact">
+        <!-- <h2 class="title_section">Contact Me</h2>
+        <div id="contact"> -->
             <!-- Contact Info -->
-            <div id="footer_info">
+            <!-- <div id="footer_info">
 
                 <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank"
                     class="footer_info_style">LinkedIn</a>
@@ -594,10 +463,10 @@
                 <a href="https://medium.com/@themis.ariana" target="_blank" class="footer_info_style">Medium</a>
                 <a href="https://medium.com/@themis.ariana" target="_blank"
                     class="footer_info_style">themiscadiz@gmail.com</a>
-            </div>
+            </div> -->
 
             <!-- menu -->
-            <div id="footer_content">
+            <!-- <div id="footer_content">
                 <div id="footer_nav">
                     <nav id="footer_menu">
                         <a href="#home" class="footer_info_style">Home</a>
@@ -607,19 +476,37 @@
                     </nav>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- <section class="contac_header">\ -->
 
         <!-- footer info -->
+        <div class="home_section">
+            <div class="home_image_div">
+                <a href="http://localhost:3000/"><img src="assets/home-02.png" class="home_image" alt="Home icon."></a>
+                <p class="home_text_footer" >Home</p>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+
+        
+        
+
         <div id="p_footer">
+
             <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank" class="logos_style"><img
-                    src="assets/LI-In-Logo.png" class="logo_image" alt="" width="35"></a>
+                src="assets/LI-In-Logo.png" class="logo_image" alt="LinkedIn icon" width="35"></a>
+
             <a href="https://github.com/themiscadiz" target="_blank" class="logos_style"><img
-                    src="assets/githubLogo-01.png" class="logo_image" alt="" width="30"></a>
+                src="assets/githubLogo-01.png" class="logo_image" alt="Github icon" width="30"></a>
+
             <a href="https://medium.com/@themis.ariana" target="_blank" class="logos_style"><img
-                    src="assets/mediumLogo.png" class="logo_image" alt="" width="30"></a>
-            <p>Themis Garcia 2020 | All rights reserved. </p>
+                src="assets/mediumLogo.png" class="logo_image" alt="Medium icon" width="30"></a>
+
+            <!-- <p>Themis Garcia 2020 | All rights reserved. </p> -->
+            <p>Made for you with  ❤️.</br>Themis Garcia 2020 | All rights reserved. </p>
         </div>
     </footer>
 

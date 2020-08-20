@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
+
+
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="projects_main.css">
     <script src="main.js"></script>
@@ -17,7 +24,7 @@
 
     <script src="profileSketch.js"></script> -->
 
-    <title> Themis Garcia | Designer</title>
+    <title> Themis Garcia | UX Designer</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,58 +33,41 @@
 <body>
 
 
+    <section id="nav">
 
 
-    <!-- NAVIGATION MENU -->
-    <!-- ≡ -->
-    <div class="dropdown" alt="interactive menu on top. There is a ccessible menu on botton">
-        <!-- <section id = "home"></section> -->
-        <button onclick="myFunction()" class="dropbtn" id="btn">+</button>
-        <nav id="myDropdown" class="dropdown-content">
+        <!-- NAVIGATION MENU -->
+        <!-- ≡ -->
+        <div class="dropdown" alt="interactive menu on top. There is a ccessible menu on botton">
+            <!-- <section id = "home"></section> -->
+            <button onclick="myFunction()" class="dropbtn" id="btn">+</button>
+            <nav id="myDropdown" class="dropdown-content">
+                <a href="http://localhost:3000/">Home</a>
+                <a href="http://localhost:3000/#projects">Projects</a>
+                <a href="http://localhost:3000/#other_work">Explorations</a>
+                <a href="http://localhost:3000/#about">Who am I</a>
+                <a href="http://localhost:3000/#contact">Say Hi!</a>
+                <!-- <a href="assets/resume_themis_garcia.pdf" target="_blank">RESUME</a>  -->
 
-            <a href="index.html">Home</a>
-            <a href="http://localhost:3000/#projects">Projects</a>
-            <a href="#explorations">Explorations</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact me</a>
-            <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">RESUME</a>
-
-
-            <p>Menu</p>
-    </div>
-
-    <section class="contac_header">
-        <div id="links"></div>
-        <!-- <div class="links"></div> -->
-
-        <div class="contac_logos">
-
-            <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank" class="logos_style"><img
-                    src="assets/LI-In-Logo.png" class="logo_image" alt="" width="35"></a>
-            <a href="https://github.com/themiscadiz" target="_blank" class="logos_style"><img
-                    src="assets/githubLogo-01.png" class="logo_image" alt="" width="30"></a>
-            <a href="https://medium.com/@themis.ariana" target="_blank" class="logos_style"><img
-                    src="assets/mediumLogo.png" class="logo_image" alt="" width="30"></a>
-
+            </nav>
+            <p id="menu_word" >Menu</p>
         </div>
-
     </section>
-
 
     <section class="overview_project_page">
 
         <!-- <section class="main_img_cover"> -->
             <div>
-                <img src="assets/connect/000.png" class="project_section_image" alt="reading blocks" width="50%">
+                <img src="assets/museum/3.Cover.png" class="project_section_image" alt=" Image of 3 implementations for highlighter: Wall mounted, freestanding and fixed on wall. " width="50%">
             </div>
         <!-- </section> -->
 
         <section class="intro_section">
 
-            <h1 class="positionIntro">Highlighter</h1>
+            <h1 class="positionIntro_cover_tittle">Highlighter</h1>
 
-            <h2 class="positionIntro">Connect Cube is a set of objects that allow you to maintain a</br>connection to
-                your relatives by sharing a moment. </h2>
+            <h2 class="positionIntro_cover_tittle_h2">Managing information-overload 
+             in text-heavy exhibits.  </h2>
 
         </section>
 
@@ -94,25 +84,26 @@
     <section class="short_info_project">
 
         <div class="part_1">
-            <h2 class="project_intro_sub">UX/UI IoT Development</h2>
-            <p class="project_intro_p">For families who live far apart from each other, it’s a constant challenge to
-                maintain an meaningful connection. They must actively make the effort to stay in contact. For our closest
-                relationships, a connection goes beyond active communication. If there was a better way to share moments
-                from a distance, then families could feel like they are together. <b>This project its aimed to explore 
-                implicit communications with our families while living far apart</b>
+            <h2 class="project_intro_sub">Overview</h2>
+            <p class="project_intro_p">
+                <b>Highlighter is an assistive tool for  
+                    overcoming information overload in museums.</b>
+                Through research and discussions with museum professionals, we noticed that navigating 
+                content in museums was an accessibility challenge for visitors. 
+            </br></br> Our group focused on over-stimulating environments with regard to text. 
+            With Highlighter, we proposed alternatives for implementing a low-tech color filtering technique.
             </p>
-            <!-- <p class="project_intro_p">This project is intended to create a unique interaction for communicating with
-                our loved ones. Inspired by our current events, I wonder in which ways we can connect more, but without
-                actively interfering in our daily routine. My approach was to create a set of cubes that, when a person
-                joins them together, can send a message to another person.</p> -->
+          <p><b>Year:</b> Spring 2020</p>
+       
         </div>
 
         <div class="part_2">
             <ul>
-                <li><b>Process: </b></br>User Research (surveys, Interviews), Persona, Experience Map, Storyboard, User
-                    Flow,
-                    Mood board, Wireframes, User Testing, Digital Fabrication, Prototyping </li>
-                <li><b>Tools: </b></br>Figma, Fusion 360, Javascript, MongoDB, Arduino, Ps, Ai, Google Forms</li>
+                <li><b>Process: </b></br>User Research (Surveys, Interviews), Competitive Analysis, Experience Map, Brainstorming, Visitor Flow, User Testing, Prototyping </li>
+                <li><b>Tools: </b></br>Figma, P5.js, Arduino, Ps, Ai, Google Forms</li>
+                <li><b>Clients: </b></br>Bainbridge Island Historical Museum, </br>Fosterfields Living Historical Farm</li>
+                <li><b>Team: Over/Under-Stimulating Enviroments </b> </br>Deborah Gorelik, Sarah Liriano (Museum Accessibility: NYU Ability Project)</li>
+                <li><b>Roles: </b></br>User Research and Testing, UX Design, Prototyping</li>
                 <!-- <li><b>Roles: </b> </br>UX Designer & Technologist</li> -->
 
             </ul>
@@ -125,7 +116,7 @@
     <!--  ---------------- -->
 
     <!-- Project Section -->
-    <h1 class="title_section">Define and Discovery</h1>
+    <h1 class="title_section">Exploratory Research</h1>
     <section class="phase_1">
 
 
@@ -136,113 +127,279 @@
 
 
             <div class="project_image_space_1">
-                <img src="assets/connect/8.png" class="project_image_1" alt="reading blocks">
+                <img src="assets/museum/Bainbridge.png" class="project_image_1" alt="Picture of Bainbridge Museum from the outside. Two samm houses with a tree on the front yard.">
+                <p>Image from Bainbridge Island Historical Museum' website. One of the museum that work with the team.</p>
             </div>
 
             <div class="phase1_info_1">
 
-                <h2 class="intro_sub">Discovery research</h2>
-                <p class="intro_p">I worked on a <b>survey</b> and <b>interviews</b> to better understand what are the
-                    communication behaviors of the potential users with their relatives, gain more knowledge about the
-                    feeling to be connected and which ways they feel that they could enhance that connection. </p>
+                <h2 class="intro_sub">Context</h2>
+                <p class="intro_p">During our initial research, we found that information overload and 
+                    content delivery were issues that museum visitors encounter. 
+                    </br></br>
+                    Museums determine their content with knowledge and awareness. 
+                    However, for many reasons, visitors may experience difficulties engaging with the 
+                    content. Our goal was to help overstimulation-challenged visitors navigate 
+                    text-based content in museums. 
+                </p>
 
             </div>
-
+        
         </div>
-
-        <!-- <h2 class="subtitle">Persona</h2> -->
-        <div class="feature_space">
-            <img src="assets/connect/9.png" class="main_image" alt="reading blocks">
-        </div>
-
-
-
-
-        <!-- 80/20 -->
-        <!-- <div class="phase_1_part_2">
-
-            <div class="phase_1_info_2">
-
-                <h2 class="intro_sub">User Interviews and Surveys
-                </h2>
-                <p class="intro_p"> The questions were oriented about how she feels about the quality of communication,
-                    what other options she could consider and what other ways she can envision her communication. </p>
-
-            </div>
-
-            <div class="project_image_2">
-                <img src="" class="project_image_1" alt="">
-            </div>
-
-        </div> -->
-
-
-
-
-
-        <!-- 80/20 -->
-        <!-- <div class="phase_1_part_2">
-
-            <div class="project_image_2">
-                <img src="assets/connect/2.png" class="project_image_1" alt="">
-            </div>
-
-            <div class="phase_1_info_2">
-
-                <h2 class="intro_sub">"I'd love to have a way to communicate with my parents as if we are in the same
-                    house." </br> - Sabrina</h2>
-
-            </div>
-        </div> -->
-
-        <!-- 80/20 -->
         <div class="phase_1_part_2">
 
             <div class="phase_1_info_2">
+                <h2 class="intro_sub">Challenge</h2>
+             </div>
+        </div>
 
-                <h2 class="intro_sub">Define
-                </h2>
-                <p class="intro_p">The surveys and the interview let me highlight the possible, their behaviors and
-                    motivations. I concentrated on the people that most fill the survey, woman below 45, mostly they
-                    communicate with their parents and close relatives on a daily basis to make sure that they are ok.
-                    <b>Persona, Empathy Map and Experience Map was developed from the discovery phase</b>.
+        <div class="feature_space">
+            
+            <h2 class="single_line_center">How to help overstimulation-challenged visitors navigate museum content?</h2>
+        </div>
+        
+
+
+        <!-- <h2 class="subtitle">Persona</h2> -->
+        <!-- <div class="feature_space">
+            <img src="" class="main_image" alt="">
+        </div> -->
+
+
+        <!-- 80/20 -->
+        <!-- <div class="phase_1_part_2">
+
+            <div class="phase_1_info_2">
+
+                <h2 class="intro_sub">Recommendations</h2>
+
+                <p class="intro_p_sub_title"><b>Highlight Viewer</b></p>
+                <p class="intro_p"><b>An analog tool for people to view a filtered version of the information. 
+                    This information is highlighted text from the exhibit.</b>
+                </br></br>
+                    This solution could be used for content that doesn't change the original text and context, 
+                    but wants to provide an alternative for visitors to engage with the significant parts of 
+                    the text. This will help visitors to focus their attention on the main content in the text 
+                    and improve engagement with the information.
+                </p>
+
+
+                <p class="intro_p_sub_title"><b>Guidelines</b></p>
+                <p class="intro_p">A set of guidelines help museums design text content that is more 
+                    accessible to users who have cognitive disabilities, and experience information overload.
+                </br>
+                These brief guidelines were compiled from several comprehensive sources about museum 
+                accessibility.
                 </p>
 
             </div>
 
-            <div class="project_image_2">
-                <img src="" class="project_image_1" alt="">
+           </div> -->
+
+
+            <div class="phase_1_part_2">
+
+                <div class="phase_1_info_2">
+    
+                    <h2 class="intro_sub">Recommendations</h2>
+                </div>
+            </div>
+
+
+           <div class="phase_1_part_1">
+
+
+            <div class="background-sub_title">
+                <p class="intro_p_sub_title"><b>Highlight Viewer</b></p>
+            </div>
+
+            <div class="phase1_info_1">
+
+                
+                <p class="intro_p"><b>An analog text-filtering tool for museum exhibits.</b>
+                </br></br>
+                    This solution could be used to provide an alternative for visitors to engage with most important parts of 
+                    a text, without changing the original text. This would help visitors focus their attention on the most important information 
+                    and improve engagement with the content.
+                </p>
+
             </div>
 
         </div>
 
-           <!-- 80/20 -->
+
+        <div class="phase_1_part_1">
+
+
+            <div class="background-sub_title">
+                <p class="intro_p_sub_title"><b>Guidelines</b></p>
+            </div>
+
+            <div class="phase1_info_1">
+
+                
+                <p class="intro_p">A set of guidelines to help museums design text content that is more 
+                    accessible to users who have cognitive disabilities and experience information overload.
+                </br></br>
+                These brief guidelines were compiled from several comprehensive sources about museum 
+                accessibility.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="project_image_2">
+            <!-- <img src="" class="project_image_1" alt=""> -->
+        </div>
+
+    </div>
+
+          
+
+
 
            <div class="phase_1_part_2">
 
             <div class="phase_1_info_2">
 
-                <h2 class="intro_sub">User Interviews - Findings</h2>
-                <p class="intro_p"> The research were oriented about how she feels about the quality of communication,
-                    what other options she could consider and what other ways she can envision her communication. </p>
+                <h2 class="intro_sub">Territory Map</h2>
+                <p class="intro_p">Our solutions aspire to help people who experience information overload 
+                    have a personalized experience with a text-heavy museum exhibit. 
+                    <b>This is an accessibility challenge often overlooked.</b>
+                    
+                </p>
+         
+                <!-- <p class="intro_p">Information overload can be experienced by people of all ages and sexes.
+                    Information overload can be experienced by people who have cognitive, learning challenges, or those considered to be neuro-diverse. 
+                    Information overload can present itself through fatigue, anxiety, and visual stress.
+                    </p> -->
 
             </div>
 
             <div class="project_image_2">
-                <img src="assets/connect/11.png" class="project_image_1" alt="reading blocks">
+                <img src="assets/museum/territory.png" class="project_image_1" alt="Stakeholder map: museum's visitors, museum's staff, Working groups, NYu Community and accessibility advocates.">
+            </div>
+
+        </div>
+
+<!-- 80/20 -->
+
+        <div class="phase_1_part_2">
+            <div class="phase_1_info_2">
+                <!-- <h2 class="intro_sub">Research Overview</h2>
+                <p class="intro_p">Through interviews, competitive analysis, and surveys
+                    we gain a better understanding of the challenges.
+                </p> -->
+
+                <p class="intro_p_sub_title"><b>Key Research Questions
+                </b></p>
+                <ul>
+                    <li>How do museums manage over-stimulating environments?</li>
+                    </br>
+                    <li>What solutions have museums considered for improving user engagement in the content?</li>
+                    </br>
+                    <li>What technology already exists to help with managing amount of information.</li>
+    
+                </ul>
+            </div>
+
+            <div class="project_image_2">
+                <!-- <img src="" class="project_image_1" alt=""> -->
+            </div>
+        </div>
+
+
+
+        <div class="phase_1_part_2">
+            <div class="phase_1_info_2">
+                <!-- <h2 class="intro_sub">Interviews</h2> -->
+              
+                <p class="intro_p_sub_title"><b>Interviews, Workshops and Secondary Research</b></p>
+                <p class="intro_p">To gain a better understanding of the needs and requirements, 
+                    my team conducted several interviews with museum 
+                    personel and our working group. Our insights helped us find the <b>pain points</b> for users 
+                    and <b>constraints</b>  for museum staff.
+                </p>
+            </div>
+
+            <div class="project_image_2">
+                <img src="" class="project_image_1" alt="">
+            </div>
+        </div>
+
+
+       
+        <div class="feature_space">
+            <p class="intro_p"><b>Museums interviewed by team</b></p>
+            <img src="assets/museum/interview.png" class="main_image_story" alt="Interviews with Intrepid,
+            NY Historical Society, Cooper Hewitt,
+            Louisiana State Museum,Bainbridge Island Historical Museum,
+            Fosterfields Living Historical Farm">
+        </div>
+
+
+
+         <!-- 80/20 -->
+
+
+
+         <div class="phase_1_part_2">
+
+            <div class="phase_1_info_2">
+
+                <h2 class="intro_sub">Research Findings</h2>
+
+          
+                <p class="intro_p_sub_title"><b>Who experiences information overload?</b></p>
+                <ul>
+                    <li>People of all ages.</li>
+                    </br>
+                    <li>People who have cognitive or learning 
+                        challenges, or those considered to be neuro-diverse. </li>
+                    </br>
+                    <li>Information overload can present itself through fatigue, anxiety, and visual stress.</li>
+    
+                </ul>
+
+            </div>
+
+            <div class="project_image_2">
+                <!-- <img src="" class="project_image_1" alt=""> -->
             </div>
 
         </div>
 
 
-        <h2 class="subtitle">Persona</h2>
+
+        <div class="phase_1_part_2">
+            <!-- <div class="phase_1_info_2">
+                <h2 class="intro_sub">Opportunities</h2>
+                <p class="intro_p">The story takes place in their homes. They make a connection with the blocks. In each
+                    frame, I want to communicate the casualness of using the device and sharing the moment.</p>
+            </div> -->
+
+            <div class="project_image_2">
+                <!-- <img src="" class="project_image_1" alt=""> -->
+            </div>
+        </div>
+
+        <div class="feature_space">
+            <!-- <img src="" class="main_image_story" alt=""> -->
+        </div>
+
+
+        <!-- <h2 class="subtitle">Persona</h2>
         <div class="feature_space">
             <img src="assets/connect/6.png" class="main_image" alt="reading blocks">
         </div>
         <h2 class="subtitle">Experience Map</h2>
         <div class="feature_space">
             <img src="assets/connect/7.png" class="main_image" alt="reading blocks">
-        </div>
+        </div> -->
 
      
 
@@ -282,17 +439,27 @@
 
 
             <div class="project_image_space_1">
-                <img src="assets/connect/11.png" class="project_image_1" alt="reading blocks">
+                <img src="assets/museum/brainstorming.png" class="project_image_1" alt="Image of multiple exploration designs to manage information overload with text. including an app and tangible objects in exhibits.">
             </div>
 
             <div class="phase1_info_1">
 
                 <h2 class="intro_sub">Ideate</h2>
-                <p class="intro_p">Inspired by our current event that we live with with concious social distancing, this
-                    project is intended to create a unique interaction that strengthens our connections. I worked on a
-                    series of <b>sketches</b> for this concept. My approach was
-                    to create a set of cubes that, when a person joins them together, can send a message to another
-                    person.
+
+                <p class="intro_p">We explored multiple designs to manage information overload with 
+                    text. Our conclusion was to create a set of guidelines to make <b>accessible labeling</b>  
+                    from scratch and a device to highlight relevant information.
+<!-- 
+                    We continued researching how to implement the QR code, as well as exploring the usage of RFID and NFC. 
+                    We also explored more analog technology, such as using invisible ink to highlight the key ideas in a museum 
+                    exhibit or display. We explored the possible pain-points and advantages of each idea.
+
+                    
+                    For the highlight viewer we worked in a design process to develope the prototype.
+                    
+                    Our design is a physical device that when hovered over text highlights specific content while 
+                    blocking out the rest of the text. -->
+
                 </p>
 
             </div>
@@ -327,26 +494,40 @@
 
         <div class="phase_1_part_2">
             <div class="phase_1_info_2">
-                <h2 class="intro_sub">Storyboard
-                </h2>
-                <p class="intro_p">The story takes place in their homes. They make a connection with the blocks. In each
-                    frame, I want to communicate the casualness of using the device and sharing the moment.</p>
+                <h2 class="intro_sub">Design</h2>
+                <p class="intro_p_sub_title"><b>Color Filtering</b></p>
+                <p class="intro_p">
+                    
+                    <!-- After a competitive analysis and consultation with the clients the team determine to work 
+                    with an analog text filter.
+                </br></br> -->
+                By using color filtering, we can remove as much textual information as possible while retaining key information. 
+                Visitors with difficulties processing information may focus, engage with the content, and retain knowledge.
+                   
+                </p>
+                </br></br>
+                <p class="intro_p_sub_title"><b>How does it work?</b></p>
+                <p class="intro_p">Text which is printed in the same color as 
+                    the filter will be neutralized and effectively invisible. 
+                </p>
             </div>
 
             <div class="project_image_2">
-                <img src="" class="project_image_1" alt="">
+                <!-- <img src="" class="project_image_1" alt=""> -->
             </div>
         </div>
 
         <div class="feature_space">
-            <img src="assets/connect/13.png" class="main_image_story" alt="reading blocks">
+            <img src="assets/museum/Highlighter_1-01.png" class="main_image_story" alt=" Highlighter is a rectangular object with an opening that has a translucent blue filter, the poster with the text is behind the object. The image shows the document with the highlighted text while blocking the rest of it.">
+            <p></p>
+
         </div>
-        <div class="feature_space">
+        <!-- <div class="feature_space">
             <img src="assets/connect/14.png" class="main_image_story" alt="reading blocks">
         </div>
         <div class="feature_space">
             <img src="assets/connect/15.png" class="main_image_story" alt="reading blocks">
-        </div>
+        </div> -->
 
 
 
@@ -355,126 +536,217 @@
 
 
 
-        <div class="phase_1_part_2">
+        <div class="phase_1_part_1">
 
-            <div class="phase_1_info_2">
+            <div class="phase1_info_1">
 
-                <h2 class="intro_sub">UX Design
-                </h2>
-                <p class="intro_p">I developed how would flow the main interaction. The interaction is personal. The
-                    person is invited to join the objects to share their activities with another person that has the
-                    same system of cubes. This message consists of activities that they want the other person to know,
-                    an emotion or perhaps a feeling. I developed a <b>Moodboard</b>, <b>User Flow</b> and
-                    <b>Wireframes</b>.
+                <h2 class="intro_sub">User Testing</h2>
+                <p class="intro_p"> I developed a custom web-based prototype and ran remote user tests to evaluate text color and interaction models. 
+                    
                 </p>
+
             </div>
 
-            <div class="project_image_2">
-                <img src="assets/connect/21.png" class="project_image_1" alt="">
+
+            <div class="project_image_space_1">
+                <img src="assets/museum/test.png" class="project_image_1" alt="Screenshot of user test to evaluate different color for filtering text.">
             </div>
+
+
 
         </div>
+
+
+
+
+
+       
 
 
         <!-- ----------------------- -->
 
         <div class="phase_1_part_1">
 
-            <div class="phase1_info_1">
+            <!-- <div class="phase1_info_1">
 
-                <h2 class="intro_sub">User Flow</h2>
-                <p class="intro_p">The idea behind the activities is to share a moment with the other user. User 1 is
-                    the first to initiate the interaction, and the User 2 respond to the share connection.
-
-            </div>
-
-
-            <div class="project_image_space_1">
-                <img src="" class="project_image_1" alt="">
-            </div>
+                 <h2 class="intro_sub">Visitor Experience</h2>
+                <p class="intro_p">Visitors are welcome to explore the exhibit with and without the viewer. 
+                    They can stand in front of the display to read and see the images. 
+                </br></br>
 
 
-
-        </div>
-
-        <div class="feature_space">
-            <img src="assets/connect/16.png" class="main_image" alt="reading blocks">
-        </div>
-
-        <div class="phase_1_part_1">
-
-            <div class="phase1_info_1">
-
-                <h2 class="intro_sub">App User Flow</h2>
-                <p class="intro_p"><b>Activation Process</b></p>
-                <p class="intro_p">Therefore the product would have an app where the user can register the blocks and
-                    request connections with others.</p>
-
-            </div>
-
-
-            <div class="project_image_space_1">
-                <img src="" class="project_image_1" alt="">
-            </div>
-
-
-
-        </div>
-
-        <!-- <div class="feature_space">
-            <img src="assets/connect/17.png" class="main_image" alt="reading blocks">
-        </div> -->
-
-        <div class="feature_space">
-            <img src="assets/connect/18.png" class="main_image" alt="reading blocks">
-        </div>
-        <div class="feature_space">
-            <img src="assets/connect/19.png" class="main_image" alt="reading blocks">
-        </div>
-        <div class="feature_space">
-            <img src="assets/connect/20.png" class="main_image" alt="reading blocks">
-        </div>
-
-
-
-        <!-- 50/50 -->
-<!-- 
-        <div class="phase_1_part_1">
-
-
-
-            <div class="project_image_space_1">
-
-                <img src="assets/connect/11.png" class="project_image_1" alt="reading blocks">
-            </div>
-
-            <div class="phase1_info_1">
-
-
-                <h2 class="intro_sub">User Flow</h2>
-                <p class="intro_p">I developed how would flow the main interaction. User 1 is the first to initiate the
-                    interaction, and the User 2 respond to the share connection.
-                    So far the activity blocks represent the activity that the user is doing at the moment. The idea
-                    behind the activities is to share a moment with the other user.
-
+                    The active visitor (the one uses the Viewer) would be able to explore the content and its highlights. 
+                    This tool would facilitate engagement with the most relevant content.
+                </br></br>
+                    
+                    For visitors with information overload, this would help them to retain the most relevant information 
+                    and enjoy the exhibit.
                 </p>
 
+            </div> -->
+
+
+            <div class="project_image_space_1">
+                <!-- <img src="" class="project_image_1" alt=""> -->
             </div>
 
-        </div> -->
 
+
+        </div>
+
+
+
+
+        <div class="phase_1_part_1">
+
+            <div class="phase1_info_1">
+
+                <h2 class="intro_sub">Visitor's Flow</h2>
+                <p class="intro_p">Visitors with text information overload issues can hover the viewer over the text in the exhibit, 
+                    and focus on highlighted information for improved retention.</p>
+            </div>
+
+
+            <div class="project_image_space_1">
+                <!-- <img src="" class="project_image_1" alt=""> -->
+            </div>
+
+
+
+        </div>
+
+        <div class="feature_space">
+            <img src="assets/museum/flow.png" class="main_image" alt="Illustration of four sequenced images of a visitor using the viewer. 
+
+            The illustration is of a stick figure drawing in the free-standing display scenario. 
+            
+            The visitor approaches the table exhibit, then notices the viewer device, then picks up the viewer with one or both hands, and starts hovering the viewer over the table to read the highlighted text. 
+            ">
+        </div>
+
+
+        <div class="phase_1_part_1">
+
+            <div class="phase1_info_1">
+
+                <h2 class="intro_sub">Implementations</h2>
+
+                <p class="intro_p">This design has multiple possibilities of implementation, depending on the museums 
+                    requirements and budget.
+                </p>
+            </div>
+            <div class="project_image_space_1">
+                <!-- <img src="" class="project_image_1" alt=""> -->
+            </div>
+        </div>
+
+        <div class="phase_1_part_1">
+
+            <div class="project_image_space_1">
+                <img src="assets/museum/implementation3.png" class="project_image_1" alt="Illustration of a printed wall graphic with the highlight viewer resting on a wall mounted stand towards the right side">
+            </div>
+            <div class="phase1_info_1">
+                <p class="intro_p_sub_title"><b>Wall-mounted</b></p>
+                <p class="intro_p">Visitors pick up the viewer and navigate the information on a wall graphic.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="phase_1_part_1">
+            <div class="phase1_info_1">
+                <p class="intro_p_sub_title"><b>Fixed</b></p>
+                <p class="intro_p">A horizontal stand fixed to the wall.
+                </p>
+            </div>
+            <div class="project_image_space_1">
+                <img src="assets/museum/implementation2.png" class="project_image_1" alt="Illustration of a fixed on the wall display graphic with the highlight viewer resting on a side.">
+            </div>
+        </div>
+
+        <div class="phase_1_part_1">
+
+            <div class="project_image_space_1">
+                <img src="assets/museum/implementation1.png" class="project_image_1" alt="Illustration of a free-standing display (similar to a table) The viewer device rests on one side of the display.">
+            </div>
+            <div class="phase1_info_1">
+                <p class="intro_p_sub_title"><b>Free-standing</b></p>
+                <p class="intro_p">A free-standing display, where the content is positioned on top. The viewer rests on one side of the display.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="phase_1_part_1">
+            <div class="phase1_info_1">
+                <p class="intro_p_sub_title"><b>Handheld</b></p>
+                <p class="intro_p">This implementation is a low-cost approach where the museum provides a simple foldable object where content is easily swapable.
+
+                    The content, a paper document, slides into the folder to achieve the highlighting effect.
+                    
+                </p>
+            </div>
+            <div class="project_image_space_1">
+                <img src="assets/museum/implementation4.png" class="project_image_1" alt="Folder-like object with an opening that has a translucent blue filter, the paper with the text goes inside the folder. The image shows the document with the highlighted text while blocking the rest of it.">
+            </div>
+        </div>
     </section>
 
     <!--  ---------------- -->
 
     <!-- Project Section -->
-    <h1 class="title_section">Prototyping and Development</h1>
+    <h1 class="title_section">Accessibility</h1>
 
     <section class="phase_1">
 
+        <div class="phase_1_part_2">
+            <div class="phase_1_info_2">
+                <h2 class="intro_sub">Assessment</h2>
+                <p class="intro_p">The solutions are designed for a specific over-stimulation challenge, information overload with text.
+                We acknowledge that these proposed solutions do not fully address vision, mobility, or literacy issues.
+            </br>
+        </br>
+
+                As part of our extended research, we also explored how interaction can be improved for the visually impaired visitors.
+            </p>
+
+
+
+                <p class="intro_p_sub_title"><b>On-site User Testing</b></p>
+                <ul>
+                    Usability Testing with people with diverse needs is key. Screen readers, magnifiers, plain language, 
+                        and high contrast must be evaluated in the context of the museum.
+    </ul>
+                
+            </div>
+
+            <!-- <div class="project_image_2">
+                <img src="" class="project_image_1" alt="">
+            </div> -->
+        </div>
+
+
+        <div class="phase_1_part_2">
+            <div class="phase_1_info_2">
+
+                <p class="intro_p_sub_title"><b>Guidelines</b></p>
+                <ul>
+                    <li>The guidelines are designed for people who experience high cognitive load as well as those who experience low vision. 
+                        However, they may not accommodate everyone who experiences low vision.</li>
+                    </br>
+                    <li>We do not address alternative formats of engaging with the labels such as braille or audio. </li>
+    
+                </ul>
+            </div>
+
+            <div class="project_image_2">
+                <!-- <img src="" class="project_image_1" alt=""> -->
+            </div>
+        </div>
+
         <!-- 50/50 -->
 
-        <div class="phase_1_part_1">
+        <!-- <div class="phase_1_part_1">
 
 
             <div class="project_image_space_1">
@@ -486,74 +758,11 @@
                 <p class="intro_p">The person is invited to join the objects to share their activities with another person that has the same system of cubes. This message consists of activities that they want the other person to know, an emotion or perhaps a feeling. <b>The blocks that share the activities are interchangable.</b>
                 </p>
             </div>
-        </div>
-
-        <div class="feature_space">
-            <img src="assets/connect/22.png" class="main_image_story" alt="reading blocks">
-        </div>
-    
-
-    <div class="phase_1_part_2">
-        <!-- <div class="phase_1_info_2">
-            <h2 class="intro_sub">Sistem Diagram
-            </h2>
-            <p class="intro_p">The story takes place in their homes. They make a connection with the blocks. In each
-                frame, I want to communicate the casualness of using the device and sharing the moment.</p>
-        </div>
-
-        <div class="project_image_2">
-            <img src="" class="project_image_1" alt="">
         </div> -->
-    </div>
-    <h2 class="subtitle">Hardware Diagram </h2>
-    <p class="subtitle">Hardware components of the main cube and activity cube.</p>
-    <div class="feature_space">
-        <img src="assets/connect/23.png" class="main_image" alt="reading blocks">
-    </div>
-
-    <h2 class="subtitle">Software Architecture</h2>
-    <p class="subtitle">Software flow of main cube and activity cube.</p>
-
-    <div class="feature_space">
-        <img src="assets/connect/24.png" class="main_image_story" alt="reading blocks">
-    </div>
 
 
 
-
-    <div class="phase_1_part_1">
-
-
-        <!-- <div class="project_image_space_1">
-            <img src="assets/connect/26.gif" class="project_image_1" alt="reading blocks">
-        </div>
-
-        <div class="phase1_info_1">
-            <h2 class="intro_sub">Prototype</h2>
-            <p class="intro_p">Because the pandemic of Covid 19 I have limitations to work on the fabrication of this project. However I worked in the backend system and prototyping. 
-            </p>
-        </div> -->
-    </div>
-
-    <h2 class="subtitle">Prototyping</h2>
-    <p class="subtitle">Sending a message from RFID Reader to Database and Receiving the message back. 
-
-            <a href="https://github.com/themiscadiz/ConnectCube_V1" target="_blank"
-                class="footer_info_style">Github Repository.</a></p>
-
-    <div class="feature_space">
-        <!-- <img src="assets/connect/24.png" class="main_image_story" alt="reading blocks"> -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/kQl6b6h-mxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-
-    <h2 class="subtitle">Demo</h2>
-    <!-- <p class="subtitle">Software flow of main cube and activity cube.</p> -->
-
-    <div class="feature_space">
-        <!-- <img src="assets/connect/24.png" class="main_image_story" alt="reading blocks"> -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/CJtzfuY95V8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+   
 
  
 
@@ -572,54 +781,40 @@
     <section class="navigation_projects">
         <nav>
             <a href="connectCube.html">Connect Cube</a>
-            <a href="connectCube.html">Museum Accessibility Tool</a>
-            <a href="connectCube.html">Reading Blocks</a>
-            <a href="connectCube.html">Pisocorre</a>
-
+            <a href="pisicorre.html">Pisicorre</a>
+            <a href="readingBlocks.html">Reading Blocks</a>
+            <a href="highlighter.html">Highlighter</a>
         </nav>
-
     </section>
 
     <!-- Contact/Footer Section -->
 
     <footer>
-        <h2 class="title_section">Contact Me</h2>
-        <div id="contact">
-            <!-- Contact Info -->
-            <div id="footer_info">
 
-                <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank"
-                    class="footer_info_style">LinkedIn</a>
-                <a href="https://github.com/themiscadiz" target="_blank" class="footer_info_style">Github</a>
-                <a href="https://medium.com/@themis.ariana" target="_blank" class="footer_info_style">Medium</a>
-                <a href="https://medium.com/@themis.ariana" target="_blank"
-                    class="footer_info_style">themiscadiz@gmail.com</a>
+        <div class="home_section">
+            <div class="home_image_div">
+                <a href="http://localhost:3000/"><img src="assets/home-02.png" class="home_image" alt="Home icon."></a>
+                <p class="home_text_footer" >Home</p>
             </div>
-
-            <!-- menu -->
-            <div id="footer_content">
-                <div id="footer_nav">
-                    <nav id="footer_menu">
-                        <a href="#home" class="footer_info_style">Home</a>
-                        <a href="#projects" class="footer_info_style">Projects</a>
-                        <a href="#about" class="footer_info_style">About</a>
-                        <a href="#explorations" class="footer_info_style">Explorations</a>
-                    </nav>
-                </div>
+            <div>
+                
             </div>
         </div>
 
-        <!-- <section class="contac_header">\ -->
-
         <!-- footer info -->
         <div id="p_footer">
+            
             <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank" class="logos_style"><img
-                    src="assets/LI-In-Logo.png" class="logo_image" alt="" width="35"></a>
-            <a href="https://github.com/themiscadiz" target="_blank" class="logos_style"><img
-                    src="assets/githubLogo-01.png" class="logo_image" alt="" width="30"></a>
-            <a href="https://medium.com/@themis.ariana" target="_blank" class="logos_style"><img
-                    src="assets/mediumLogo.png" class="logo_image" alt="" width="30"></a>
-            <p>Themis Garcia 2020 | All rights reserved. </p>
+                src="assets/LI-In-Logo.png" class="logo_image" alt="LinkedIn icon" width="35"></a>
+
+        <a href="https://github.com/themiscadiz" target="_blank" class="logos_style"><img
+                src="assets/githubLogo-01.png" class="logo_image" alt="Github icon" width="30"></a>
+
+        <a href="https://medium.com/@themis.ariana" target="_blank" class="logos_style"><img
+                src="assets/mediumLogo.png" class="logo_image" alt="Medium icon" width="30"></a>
+
+            <!-- <p>Themis Garcia 2020 | All rights reserved. </p> -->
+            <p>Made for you with  ❤️.</br>Themis Garcia 2020 | All rights reserved. </p>
         </div>
     </footer>
 

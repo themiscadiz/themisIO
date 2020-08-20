@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
+
+
+
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="main.css">
     <script src="main.js"></script>
@@ -17,7 +26,7 @@
 
     <script src="profileSketch.js"></script>
 
-    <title> Themis | Designer</title>
+    <title> Themis | UX Designer</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,7 +34,7 @@
 
 <body>
 
-    <section id="nav">
+    <section id="home">
 
 
         <!-- NAVIGATION MENU -->
@@ -34,16 +43,19 @@
             <!-- <section id = "home"></section> -->
             <button onclick="myFunction()" class="dropbtn" id="btn">+</button>
             <nav id="myDropdown" class="dropdown-content">
-                <a href="#nav">Home</a>
+                <a href="#home">Home</a>
                 <a href="#projects">Projects</a>
                 <a href="#other_work">Explorations</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact me</a>
-                <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">RESUME</a>
+                <a href="#about">Who am I</a>
+                <a href="#contact">Say Hi!</a> 
+                <!-- <a href="assets/resume_themis_garcia.pdf" target="_blank">RESUME</a>  -->
+
+                
 
             </nav>
             <p id="menu_word" >Menu</p>
         </div>
+    </section>
 
         <!-- <section class="contac_header">
             <div id="links"></div>
@@ -56,9 +68,7 @@
                         src="assets/githubLogo-01.png" class="logo_image" alt="" width="30"></a>
                 <a href="https://medium.com/@themis.ariana" target="_blank" class="logos_style"><img
                         src="assets/mediumLogo.png" class="logo_image" alt="" width="30"></a>
-            
-        
-        </div>
+                 </div>
 
         </section> -->
 
@@ -70,11 +80,12 @@
 
             <section id="intro">
 
-                <h1 class="positionIntro_h1">Hi! I'm Themis</h1>
-                <h2 class="positionIntro_h2">UX/UI Designer</h2>
-                <p class="positionIntro_p">I’m a graduate student at NYU’s Interactive Telecommunications Program meeting with amazing peers and mentors that care about the ethical intersection of tech, design and community(ITP).</p>
-                <p class="positionIntro_p_Highlight">Currently looking for opportunities on Product Design on a UX teams.</p>
-                
+                <h1 class="positionIntro_h1">Hi, I'm Themis</h1>
+                <h2 class="positionIntro_h2">a <b>UX Designer</b> </br>and a Masters candidate <b>ITP NYU 2021</b>. </br>I'm <b>currently looking for an internship</b> in Product Design and UX Design.</h2>
+                <!-- <p class="positionIntro_p"> and a Masters candidate ITP NYU 2021. I'm currently looking for an internship in Product Design and UX Design.<p> --> 
+                <!-- <p class="positionIntro_p_Highlight">I'm currently looking for an internship in Product Design and UX Design.</p> -->
+                <a class="button_view_intro" href="assets/resume_themis_garcia.pdf " target="_blank"><span class="name_span_intro" >View Resume</span></a>
+    
             </section>
 
             <div class="top"><div class="title"><button class="arrow_button"><a href="#projects"><img src="assets/arrow-01.png"  class="arrow_image" alt="arrow"></a></button></div></div>
@@ -88,7 +99,7 @@
         </section>
 
         
-<hr>
+<!-- <hr> -->
         <!--  ---------------- -->
 
         <!-- Project Section -->
@@ -103,14 +114,14 @@
                     <!-- <a href="connectCube.html"> -->
 
                     <div class="project_image">
-                        <img src="assets/connect/03.png" class="project_image" alt="reading blocks" width="500">
+                        <img src="assets/connect/2-02-01.png" class="project_image" alt="Two set of blocks. One is a screen an the other has the drawing of a plant." width="500">
                     </div>
 
                     <div class="project_intro">
                         <h1 class="project_intro_title">Connect Cube</h1>
-                        <h2 class="project_intro_sub">UX/UI & IoT Development</h2>
-                        <p class="project_intro_p">Connect Cube is a set of objects that allow you to maintain a
-                            connection to your relatives by sharing a moment.</p>
+                        <h2 class="project_intro_sub">Product Design, UX/UI</h2>
+                        <p class="project_intro_p">Smart Objects that allow you to maintain a
+                            connection to your relatives by sharing moments.</p>
 
                         <a href="connectCube.html" class="button_view">View</a>
 
@@ -123,13 +134,13 @@
                   <div class="project_section">
 
                     <div class="project_image">
-                        <img src="assets/pisicorre/1.png" class="project_image" alt="reading blocks" width="500">
+                        <img src="assets/pisicorre/1.Cover.png" class="project_image" alt="A phone with and open app of a map for shared transportation system." width="500">
                     </div>
 
                     <div class="project_intro">
                         <h1 class="project_intro_title">Pisicorre</h1>
-                        <h2 class="project_intro_sub">Service Design, UX UI</h2>
-                        <p class="project_intro_p">Smartphone application aimed at improving the traditional shared-taxi system for collective transportation in Puerto Rico. </p>
+                        <h2 class="project_intro_sub">Service Design, UX/UI, Social Impact</h2>
+                        <p class="project_intro_p">Smartphone application aimed at improving Puerto Rico's traditional ride-sharing transportation system. </p>
                         <a href="pisicorre.html" class="button_view">View</a>
 
                     </div>
@@ -141,37 +152,43 @@
            
             
 
-                <!-- Museum Accessibility -->
+                
+
+                <!-- Reading Blocks -->
                 <div class="project_section">
 
                     <div class="project_image">
-                        <img src="assets/museum/1.png" class="project_image" alt="reading blocks" width="500">
+                        <img src="assets/reading/1.1.jpg" class="project_image" alt="Various wooden blocks with words engrave on it." width="500">
                     </div>
 
                     <div class="project_intro">
-                        <h1 class="project_intro_title">Highlighter</h1>
-                        <h2 class="project_intro_sub">UX Research & Accessibility</h2>
-                        <p class="project_intro_p">Designing an assistive tool for museums visitor manage information overload with text. </p>
-                        <a href="highlighter.html" class="button_view">View</a>
+                        <h1 class="project_intro_title">Reading Blocks</h1>
+                        <h2 class="project_intro_sub">Tangible Interaction, UX, Animation</h2>
+                        <p class="project_intro_p">Navigate animated stories by assembling sentences using tangible objects.
+                            </p>
+                        <a href="readingBlocks.html" class="button_view">View</a>
 
                     </div>
 
 
                 </div>
 
-                <!-- Reading Blocks -->
+
+
+                <!-- Museum Accessibility -->
                 <div class="project_section">
 
                     <div class="project_image">
-                        <img src="assets/reading/1.jpg" class="project_image" alt="reading blocks" width="500">
+                        <img src="assets/museum/Highlighter7.png" class="project_image" alt="
+                        Highlighter is a rectangular object with an opening that has a translucent blue filter, the poster with the text is behind the object. The image shows the document with the highlighted text while blocking the rest of it.
+                        " width="500">
                     </div>
 
                     <div class="project_intro">
-                        <h1 class="project_intro_title">Reading Blocks</h1>
-                        <h2 class="project_intro_sub">Prototype, Physical Computing, UI, Development, Fabrication</h2>
-                        <p class="project_intro_p">Using tangible objects, users can navigate stories by assembling sentences in correct order to trigger animations.
-                            Physicality may  facilitate learning for  sequence-based tasks.</p>
-                        <a href="readingBlocks.html" class="button_view">View</a>
+                        <h1 class="project_intro_title">Highlighter</h1>
+                        <h2 class="project_intro_sub">UX Research & Accessibility</h2>
+                        <p class="project_intro_p">A tool for assisting museum visitors with information overload. </p>
+                        <a href="highlighter.html" class="button_view">View</a>
 
                     </div>
 
@@ -190,7 +207,7 @@
         <!-- Exploration Section -->
         <section id="other_work">
 
-            <h2 class="title_section">Prototyping Samples</h2>
+            <h2 class="title_section">Explorations</h2>
 
             <div id="other_work_overview">
                 <!--  -->
@@ -200,16 +217,18 @@
                     <div class="container_1">
 
                         <!-- Exploration 1 -->
+                        <!-- Hurricane Data Visualization -->
+
 
                         <div class="sub-container_1">
                             <button class="myBtn">
-                                <img src="assets/other_work/9.png" alt="placeHolder" class="image">
+                                <img src="assets/other_work/9.png" alt="Cartoon illustration of a landscape." class="image">
 
                                 <div class="overlay">
                                     <div class="text">
                                     <div class="line_style"><p></p></div> 
-                                        <h3>Visualizing Hurricane Data</h3>
-                                        <p>Data Visualization, P5*js</p>
+                                        <h3>Hurricane Data Visualization</h3>
+                                        <p>Visual Design, P5.js, UI</p>
                                     </div>
                                 </div>
                             </button>
@@ -223,20 +242,18 @@
                                 <div class="exploration_section">
 
                                     <div class="project_image">
-                                        <img src="assets/other_work/3.gif" class="project_image" alt="reading blocks" width="500">
+                                        <img src="assets/other_work/3.gif" class="project_image" alt="Gif of the visualization shows selecting hurricane by name and visualizing the data through chaging colors and stroke weight." width="500">
                                     </div>
 
                                     <div class="project_intro">
                                         <!-- <h1 class="project_intro_title">Connect Cube</h1> -->
-                                        <h2 class="project_intro_sub">Visualizing Hurricane Data</h2>
-                                        <h3 class="exploration_intro_sub">Visual Design | P5*js | CSV Data | Data Visualization</h3>
-                                        <p class="small_text_note"><b>Tools: </b>P5*js, Figma</p>
-                                        <p class="project_intro_p"> In this sketch, I visualize different data from hurricane data sets between
-                                             2016 and 2017. I explored a CSV data set of Hurricanes of 159 storms samples from 2016 and 2017, 
-                                             originally sourced from from NOAA. I visualized the direction of the storm, distance from land, 
-                                             if the eye of the storm is on land, the strength of winds and length of reading related to the duration of storms. 
-                                              The selection of hurricanes is navigable with a sequence of thin rectangle buttons at the bottom. </p>
-                                        <a href="https://medium.com/computational-media/icm-media-final-project-c7c8acf88ddc" target="_blank" class="button_view_article">Medium Article</a>
+                                        <h2 class="project_intro_sub">Hurricane Data Visualization</h2>
+                                        <h3 class="exploration_intro_sub">Visual Design | Coding with p5.js | Data Visualization</h3>
+                                        <p class="small_text_note"><b>Tools: </b>p5.js, Figma</p>
+                                        <p class="project_intro_p"> A visualization of NOAA's historic hurricane data set between
+                                             2016 and 2017. Direction of the storm, distance from land, landfall, windspeed and category are visualized. 
+                                              The list of hurricanes is navigable via the interface. </p>
+                                        <a href="https://medium.com/computational-media/icm-media-final-project-c7c8acf88ddc" target="_blank" class="button_view_article">Read on Medium</a>
 
                                     </div>
                                 </div>
@@ -244,15 +261,16 @@
                         </div>
 
                         <!-- Exploration 2 -->
+                        <!-- Voting System Website -->
 
                         <div class="sub-container_1">
                             <button class="myBtn">
-                                <img src="assets/other_work/16.png" alt="placeHolder" class="image">
+                                <img src="assets/other_work/16.png" alt="Close up of the website with and image of a dog and a bird." class="image">
                                 <div class="overlay">
                                     <div class="text">
                                         <div class="line_style"><p></p></div> 
-                                        <h3>Voting Website</h3>
-                                        <p>Web Development Prototype</p>
+                                        <h3>Animal Elections</h3>
+                                        <p>Web Development</p>
                                     </div>
                                 </div>
                             </button>
@@ -267,7 +285,7 @@
                                 <div class="exploration_section">
 
                                     <div class="project_image">
-                                        <img src="assets/other_work/4.gif" class="project_image" alt="reading blocks" width="500">
+                                        <img src="assets/other_work/4.gif" class="project_image" alt="Gif of scrolling through website. Vote for an animal, see the votes for each one and total of votes." width="500">
                                         <!-- <iframe width="560" height="315"
                                             src="https://www.youtube-nocookie.com/embed/75uMMwPJKdw?controls=0"
                                             frameborder="0"
@@ -278,14 +296,12 @@
                                     <div class="project_intro">
                                         
                                         <!-- <h1 class="project_intro_title">Connect Cube</h1> -->
-                                        <h2 class="project_intro_sub">Voting Website</h2>
-                                        <h3 class="exploration_intro_sub">Frontend/Backend | Database</h3>
-                                        <p class="small_text_note"><b>Tools: </b>Mongo DB Atlas, Postman, Node.js, Express.js, Javascript, CSS, HTML</p>
-                                        <p class="project_intro_p">The website its a basic voting online system where users vote for their favorite 
-                                            animal. 
-                                          Also, you can see how many votes each animal has in total and compare their percentage of votes 
-                                             to the other animals. For this project I went to the process of a design style guide and responsive design.The website uses node.js to create the database and have persistent data.</p>
-                                        <a href="https://github.com/themiscadiz/Final-dwd" target="_blank" class="button_view_article">Github Repository</a>
+                                        <h2 class="project_intro_sub">Animal Elections</h2>
+                                        <h3 class="exploration_intro_sub">Frontend | Backend | Data Visualization</h3>
+                                        <p class="small_text_note"><b>Tools: </b>Mongo DB, Postman, Node.js, Express.js, p5.js, CSS, HTML</p>
+                                        <p class="project_intro_p">Users can vote for their favorite animal, see total votes and percentage of votes for each candidate. 
+                                            The project features a responsive design on the Front End and a Node.js Backend interfacing with the Mongo DB database.</p>
+                                        <a href="https://github.com/themiscadiz/Final-dwd" target="_blank" class="button_view_article">Github Repo</a>
 
                                     </div>
                                 </div>
@@ -295,18 +311,19 @@
 
 
                     <!-- Exploration 3 -->
+                    <!-- Food Sovereignty in Puerto Rico -->
 
                     <div class="sub-container_1">
                         <button class="myBtn">
-                            <img src="assets/other_work/12.png" alt="placeHolder" class="image">
+                            <img src="assets/other_work/12.png" alt="Phone with open app that show location of farms in a map of Puerto Rico." class="image">
 
                             <div class="overlay">
                                 <div class="line_style"><p></p></div>
                                 <div class="text">
                                      
                                 
-                                    <h3>Resist! Food Sovereignty in Puerto Rico</h3>
-                                    <p>Tech, Design + Activisim</p>
+                                    <h3>Food Sovereignty in Puerto Rico</h3>
+                                    <p>UX Research, UX/UI Design</p>
                                 </div>
                             </div>
                         </button>
@@ -320,27 +337,26 @@
                             <div class="exploration_section">
 
                                 <div class="project_image">
-                                    <img src="assets/other_work/6.png" class="project_image" alt="reading blocks" width="500">
+                                    <img src="assets/other_work/6.png" class="project_image" alt="Venn diagram between consumers and local producers." width="500">
                                 </div>
 
                                 <div class="project_intro">
                                     <!-- <h1 class="project_intro_title">Connect Cube</h1> -->
-                                    <h2 class="project_intro_sub">Resist! Designing for Food Sovereignty in Puerto Rico</h2>
+                                    <h2 class="project_intro_sub">Designing for Food Sovereignty in Puerto Rico</h2>
                                     <h3 class="exploration_intro_sub"> Tech + Activism | UX Research | UX Design</h3>
                                     <!-- <p class="small_text_note"><b>P: </b>Figma</p> -->
-                                    <p class="project_intro_p">
-                                          
+                                    <p class="project_intro_p">   
                                         
-                                        <b>This project intends to strengthen food sovereignty the movement in Puerto Rico. </b></br>
-                                        Constraints of massive importation, poverty, and 
-                                        climate change on
-                                        the island, generate a need to look for alternatives for a sustainable local economy. With this 
+                                        <b>Strengthening the food sovereignty movement in Puerto Rico. </b></br>
+                                        The constraints of importation, poverty, and 
+                                        climate change generate a need to look for alternatives for a sustainable local economy. With this 
                                         in mind, I ask,  <i>it is possible to design 
                                         a system that encourages solidarity with local and rural economies?</i>
-                                        </br></br>Through this process I envision a platform where consumers and farmers can have a direct relationship. This direct connection between farmers and their community would improve the visibility of farmers,
-                                        and shorten the chain of access to locally grown crops.
+                                    </br></br><b>Through research, I discovered opportunities and gained insights from the community. </b></br>
+                                        I envisioned a platform where consumers and farmers can have a direct relationship, which would improve visibility
+                                        and shorten the supply chain for locally grown crops.
                                        </p>
-                                    <a href="https://medium.com/@themis.ariana/resist-designing-for-food-sovereignty-in-puerto-rico-4612c7ef43cb" target="_blank" class="button_view_article">Medium Article</a>
+                                    <a href="https://medium.com/@themis.ariana/resist-designing-for-food-sovereignty-in-puerto-rico-4612c7ef43cb" target="_blank" class="button_view_article">Read on Medium</a>
 
                                 </div>
                             </div>
@@ -373,40 +389,38 @@
 
         <!-- About Section -->
         <section id="about">
-            <h2 class="title_section">About</h2>
+            <h2 class="title_section">Who am I?</h2>
             <div id="about_sec">
                 <div id="profile_pic">
                     <!-- <p>imagenProfile</p> -->
-                    <section id="profilesketch" alt="animation of colors"> </section>
+                    <!-- <section id="profilesketch" alt="animation of colors"> </section> -->
 
-                    <img src="assets/about/1.jpeg" class="profile_image" alt="reading blocks">
+                    <img src="assets/about/2.jpg" class="profile_image" alt="Picture of Themis. A woman in a black shirt.">
+         
 
                 </div>
                 <div id="about_info">
-                    <h3>Currently</h3>
-                    <p>I’m a Designer who cares deeply about accessibility, education, and community empowerment through product development. 
-                        I’m a graduate student at NYU’s Interactive Telecommunications Program (ITP). 
-                        </p>
-                    <h3>Background</h3>
-                    <p>Previously I completed a graduate program in  Usability, UX and Interaction Design from Universitat Pompeu Fabra from Barcelona, Spain. </p>
-                    <p>I am grateful to have the opportunity to work engage and develop educational material for children in the austistic spectrum. Later on, I work in a small agency that represents people with a diversity of disabilities. In both of these opportunities offered the role to engage with people to create more accessible, approachable and empathic product and service and.
+              
+                    <p>I'm <span class="name_span"> Themis </span></br><i>(Yes, is a greek mythological name. Originally named by my siblings from the 80's cartoon: <a
+                        href="https://en.wikipedia.org/wiki/Ulysses_31" target="_blank">Space Legend Ulysses 31</a>.)</i></p>
+                    <p>I am a designer who cares deeply about education, accessibility, and community empowerment. 
+                    </br>
+                        Masters candidate at ITP NYU 2021. 
+                    </p>
+                    <!-- <h3>Background</h3> -->
+                    <p>I hold a Post-Graduate Degree in  Usability, UX and Interaction Design from Universitat Pompeu Fabra in Barcelona, Spain. </p>
+
+                    <p>As a designer, my work ranges from developing products and services for people with a diversity of disabilities and socio-economic constraints, 
+                        to designing affordable solar energy kits for climate resilience.
                     </p> 
+
+                    <p>Originally from <span class="name_span">Puerto Rico</span>, now living in <span class="name_span">Brooklyn</span>, NY.</p>
                     
-                        <p>I have collaborated in many different projects to empower design and community development in Puerto Rico. From the co-founder of the Puerto Rico  non-profit hackerspace developing communal learning space,  workshops and events to collaborate to create the most affordable solar kit generator possible (en instruction on how to build it) just after hurricane Maria.
-                        From those experiences in balance with a creative and tech drive, give me the unique experience to apply for in products.
-                
-                        </p>
-
-                    <!-- <h3>I little bit more</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                        believable. I</p> -->
-
-                    <!-- <a id="button_resume" href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download Resume</a> -->
-
-                    <a id="button_resume"
-                        href="assets/resume_themis_garcia.pdf " target="_blank">View
-                        Resume</a>
+              
+                        <div class = "resume_style_div">
+                            <a class="button_view" href="assets/resume_themis_garcia.pdf " target="_blank">Resume</a>
+                        </div>
+                 
                 </div>
 
             </div>
@@ -417,10 +431,27 @@
         <!-- Contact/Footer Section -->
 
         <footer>
-            <h2 class="title_section">Contact Me</h2>
+            <!-- <h2 class="title_section">Contact Me</h2> -->
+
             <div id="contact">
+
                 <!-- Contact Info -->
-                <div id="footer_info">
+
+                <div id="contact_info">
+
+                    <img src="assets/about/plane-01.png" class="icon_plane_image" alt="Icon of a paper airplane.">
+                    <h2 class="title_section_footer">Say Hi!</h2>
+                    <p>themiscadiz@gmail.com
+
+                    </p>
+                    <p>
+                    <!-- </br>
+                    </br> -->
+                    <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank">linkedin.com/in/themis-garcia-cadiz</a> </p>
+
+                </div>
+                
+                <!-- <div id="footer_info">
 
                     <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank"
                         class="footer_info_style">LinkedIn</a>
@@ -428,10 +459,11 @@
                     <a href="https://medium.com/@themis.ariana" target="_blank" class="footer_info_style">Medium</a>
                     <a href="https://medium.com/@themis.ariana" target="_blank"
                         class="footer_info_style">themiscadiz@gmail.com</a>
-                </div>
+                </div> -->
 
                 <!-- menu -->
-                <div id="footer_content">
+
+                <!-- <div id="footer_content">
                     <div id="footer_nav">
                         <nav id="footer_menu">
                             <a href="#home" class="footer_info_style">Home</a>
@@ -440,21 +472,28 @@
                             <a href="#explorations" class="footer_info_style">Explorations</a>
                         </nav>
                     </div>
-                </div>
+                </div> -->
+
             </div>
 
             <!-- <section class="contac_header">\ -->
 
             <!-- footer info -->
-            <div id="p_footer">
-                <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank" class="logos_style"><img
-                    src="assets/LI-In-Logo.png" class="logo_image" alt="" width="35"></a>
-            <a href="https://github.com/themiscadiz" target="_blank" class="logos_style"><img
-                    src="assets/githubLogo-01.png" class="logo_image" alt="" width="30"></a>
-            <a href="https://medium.com/@themis.ariana" target="_blank" class="logos_style"><img
-                    src="assets/mediumLogo.png" class="logo_image" alt="" width="30"></a>
-                <p>© 2020 Themis Garcia. All rights reserved. </p>
+          <div id="p_footer">
+
+            <a href="https://www.linkedin.com/in/themis-garcia-cadiz" target="_blank" class="logos_style"><img
+                src="assets/LI-In-Logo.png" class="logo_image" alt="LinkedIn icon" width="35"></a>
+
+        <a href="https://github.com/themiscadiz" target="_blank" class="logos_style"><img
+                src="assets/githubLogo-01.png" class="logo_image" alt="Github icon" width="30"></a>
+
+        <a href="https://medium.com/@themis.ariana" target="_blank" class="logos_style"><img
+                src="assets/mediumLogo.png" class="logo_image" alt="Medium icon" width="30"></a>
+
+                <!-- <p>Made for you with love and code. </p> -->
+                <p>Made for you with  ❤️.</br>Themis Garcia 2020 | All rights reserved. </p>
             </div>
+
         </footer>
 
 

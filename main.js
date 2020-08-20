@@ -27,7 +27,7 @@ function myFunction2() {
 //////////////////////////
 /////////////////////////
 
-  //   // Close the dropdown if the user clicks outside of it
+    // Close the dropdown if the user clicks outside of it
   // window.onclick = function(event) {
 
   //   if (!event.target.matches('.dropbtn')) {
