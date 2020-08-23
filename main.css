@@ -114,12 +114,17 @@ TEXT*/
 } */
 
 .project_intro_sub{
-  /* color: #888; */
-color: #000000;  
-font-size: 1.5rem;
+  color: #888;
+  /* color: #474747; */
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.project_intro_sub_pop_up{
+  color: #000000;  
+  font-size: 1.5rem;
   font-weight: 600;
   font-family: 'Roboto Condensed', sans-serif;
-
 }
 
 .small_text_note{
