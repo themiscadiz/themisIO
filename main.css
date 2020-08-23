@@ -955,11 +955,9 @@ color: rgb(63, 63, 63);
 
 
 .text p{
-  /* color: rgb(0, 0, 0); */
-  /* font-size: 20px; */
+
   font-size: 1.2rem;
-  /* color: rgb(43, 43, 43); */
-  /* position: absolute; */
+
   padding: 1rem;
   padding-top: 0rem;
   font-weight: 300;
@@ -967,11 +965,6 @@ color: rgb(63, 63, 63);
   color: rgb(96, 96, 96);
   /* font-family: 'Roboto Mono', monospace; */
   font-family: 'Overpass', sans-serif;
- 
-
-  /* top: 7%; */
-  /* left: 5%; */
-  /* text-align: left; */
 }
 
 .line_style{
@@ -987,8 +980,6 @@ color: rgb(63, 63, 63);
   background-color: #16A7B0;
   /* background-color: rgb(176, 63, 22); */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
-
 }
 
 
@@ -1146,18 +1137,33 @@ cursor: pointer;
 }
 
     }
-
     @media screen and (max-width: 1200px) {
+      .text p{
+        font-size: 1rem;
+      }
+      .text h3{
+  
+        padding: .50rem;
+        font-size: 1.2rem; 
+      }
+      .line_style{
+        /* color: #f1f1f1; */
+        width: 25%;
+        height: 7px;
+        margin-left: 5%;
+        margin-top: 15%;
+        margin-bottom: 1rem;
+      }
+    }
+
+    @media screen and (max-width: 1000px) {
       .container_1{
         flex-direction: column;
         justify-content: center;
-
         /* background-color: burlywood;  */
-
         width: 90%; 
         left: 5%;
-        
-        
+
       }
     }
 
@@ -1221,11 +1227,14 @@ cursor: pointer;
 
     .text h3{
       font-size: 1.20rem;
+      padding: 1rem;
+
     }
     .text p{
       font-size: .90rem;
      
     }
+
     
   
     
