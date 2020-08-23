@@ -146,10 +146,12 @@ TEXT*/
 
 .project_intro a{
   text-decoration: none;
+  color: #000000;
 }
 
 .project_intro a:visited{
   text-decoration: none;
+  color: #000000;
 }
 
 
@@ -1325,10 +1327,12 @@ cursor: pointer;
 
     #about_info a{
       text-decoration: none;
+      color: #000000;
     
     }
     #about_info a:visited{
       text-decoration: none;
+      color: #000000;
     }
 
     #about_info i{
