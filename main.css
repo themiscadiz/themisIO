@@ -144,6 +144,16 @@ TEXT*/
   font-size: 1.2rem;        
 }
 
+.project_intro a{
+  text-decoration: none;
+}
+
+.project_intro a:visited{
+  text-decoration: none;
+}
+
+
+
 .project_intro_sub{
   /* color: #16A7B0; */
   color: #888;
@@ -1311,6 +1321,14 @@ cursor: pointer;
       height: auto;
       text-align: left;
       padding-left: 0rem;
+    }
+
+    #about_info a{
+      text-decoration: none;
+    
+    }
+    #about_info a:visited{
+      text-decoration: none;
     }
 
     #about_info i{
