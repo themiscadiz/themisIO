@@ -2032,6 +2032,16 @@ footer{
   
 }
 
+.contact_info a{
+  text-decoration: none;
+
+}
+.contact_info a:visited{
+  text-decoration: none;
+
+}
+
+
 @media screen and (max-width: 1200px){
 
   #footer_menu a{
