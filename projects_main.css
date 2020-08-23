@@ -451,7 +451,6 @@ margin: 1rem;
 /* .sub-container_1:hover{
 transition: 1s;
 background-color: rgb(59, 185, 152);  
-
 } */
 
 
@@ -1041,21 +1040,17 @@ margin-bottom: 0rem;
 .intro_section{
 position: absolute;
 margin-left: 4rem;
-margin-top: 7vh;
+margin-top: 9vh;
 /* background-color: violet; */
-
-/* margin-bottom: 10vh; */
-/* text-align: left; */
-/* background-color: #16A7B0; */
-/* top: 38%; */
-/* top: 1%; */
-
 
 }
 
 .intro_section h1{
 font-size: 2rem;
 
+}
+.positionIntro_cover_tittle_h2{
+    visibility: hidden;
 }
 
 }
@@ -1150,9 +1145,10 @@ font-size: 1.1rem;
 
 .phase_1{
 background-color: #FCF9F4;
-/* justify-content: center;
-display: flex; */
-/* width: 80%; */
+/* background-color: rgb(255, 255, 255); */
+
+
+
 
 
 
@@ -2497,7 +2493,6 @@ font-size: 1.5rem;
 }
 /* .positionIntro_p{
 width: 90%;
-
 }
 .positionIntro_p_Highlight{
 width: 90%;
@@ -2526,6 +2521,3 @@ font-size:1.50rem;
 
 
 /* FOOTER RESPONSIVE */
-
-
-
