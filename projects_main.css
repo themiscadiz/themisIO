@@ -2,6 +2,11 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400&display=swap);
 
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
 * {
 padding: 0 0 0 0;
 margin: 0;
@@ -17,8 +22,10 @@ scroll-behavior: smooth;
 }
 
 body {
-font-family: 'Open Sans', sans-serif;
-background-color: rgb(232, 231, 228);
+/* font-family: 'Open Sans', sans-serif;
+background-color: rgb(232, 231, 228); */
+font-family: 'Poppins', sans-serif;
+background: #FEFEFE;
 text-align: center;
 }
 
@@ -28,7 +35,10 @@ outline: none;
 } */
 
 /* FONT */
-
+.symbol{
+    font-size: 1.3rem;
+    color: #3C8868;
+}
 h1{
 font-size:3rem;
 padding: 1rem;
@@ -40,21 +50,26 @@ h2{
 font-size:2rem;
 font-weight: 300; 
 padding: 1rem; 
+font-weight: 800;
+font-family: 'Heebo', sans-serif;
 }
 
 p{
-font-size:1.2rem;
-font-weight: 300;  
+font-size:1rem;
+font-weight: 400;  
 padding: 1rem;
 line-height: 2rem;
 }
 
 .title_section{ 
+font-weight: 700;
+font-family: 'Heebo', sans-serif;
 position: relative;
 text-align: left;   
 margin-left: 15rem;
 margin-top:5rem ;
 margin-bottom: 4rem;
+/* color: #3C8868; */
 }
 
 /* .title_section{
@@ -70,7 +85,7 @@ positionIntro h1{
 }
 
 .intro_p_sub_title{
-    color: #16A7B0;
+    color: rgb(0, 0, 0);
     /* color: #f1f1f1; */
     font-size: 1.5rem;
 }
@@ -145,8 +160,7 @@ margin: 0rem .50rem 0rem .50rem;
 
 /* MENU BUTTON */
 .dropbtn {
-/* background-color: rgb(52, 219, 177); */
-background-color:#16A7B0;
+background-color: #FBB53D;
 border-radius: 100%;
 color: white;
 margin: 1rem;
@@ -170,11 +184,8 @@ background-color: #2980B9;
 } */
 
 .dropbtn:hover{
-/* background-color: #2980B9; */
-/* background-color: #CF542B; */
-background-color: rgb(52, 219, 177);
-/* height: 75px ;
-width: 75px ; */
+background-color: #3C8868;
+
 
 }
 /* .dropbtn:focus {
@@ -182,6 +193,13 @@ background-color: rgb(220, 113, 31)
 } */
 
 /* FIXED POSITION OF MENU */
+#menu_word {
+    font-size: .90rem;
+    font-weight: 600;
+    font-family: 'Heebo', sans-serif;
+    
+    }
+    
 .dropdown {
 display: inline-block;
 position: fixed; /* Set the navbar to fixed position */
@@ -193,7 +211,7 @@ z-index: 1;
 .dropdown-content {
 display: none;
 position: absolute;
-background-color: #f1f1f1;
+background-color: #FEFEFE;
 /* min-width: 60px;
 overflow: auto; */
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -209,13 +227,9 @@ transition: 0.20s;
 }
 
 .dropdown a:hover {
-/* background-color: rgb(223, 84, 84); */
-/* background-color: rgb(137,194,162); */
-
-/* background-color:#16A7B0; */
-background-color: rgb(52, 219, 177);
-
-
+    background-color:rgb(0, 0, 0);
+    /* background-color: rgb(52, 219, 177); */
+    color:white;
 }
 
 .show {
@@ -263,6 +277,7 @@ margin-top: 2rem;
 
 #menu_word {
 visibility: hidden;
+
 }
 
 
@@ -760,12 +775,14 @@ font-weight: 600;
 margin-bottom: 2rem;
 }
 
+hr{
+    margin: 1rem 2rem 2rem 2rem;
+    color: #000000;
+}
 /* FOOTER */
 footer{
-/* background-color: rgb(181, 181, 181); */
 
-/* background-color: rgb(232, 231, 228); */
-background-color: rgb(240,240,240);
+/* background-color: rgb(240,240,240); */
 padding-top: 3rem;
 /* margin: 5rem, 5rem, 5rem, 5rem ; */   
 /* color: rgb(189, 64, 64); */
@@ -824,7 +841,7 @@ list-style-type: none;
 padding-top: 0rem; 
 text-decoration: none;
 padding: 20px;    
-color: grey;   
+color: rgb(0, 0, 0);   
 }
 
 #footer_info a{
@@ -843,7 +860,7 @@ color: #000000;
 
 .footer_info_style:hover{
 text-decoration: underline;
-color: #888;
+color: rgb(0, 0, 0);
 }
 
 a:visited {
@@ -854,7 +871,7 @@ color: black;
 position: relative;
 margin-top: 5rem;
 padding-bottom: 2rem;
-color: grey;
+color: rgb(0, 0, 0);
 }
 
 #p_footer p{
@@ -966,7 +983,9 @@ top: 45%;
 /* TITLE OF COVER OF PROJECT */
 .positionIntro_cover_tittle{
 text-align: left;
-color: black;
+color: rgb(46, 46, 46);
+font-weight: 300;
+font-family: 'Heebo', sans-serif;
 }
 
 .positionIntro_cover_tittle_h2{
@@ -978,8 +997,10 @@ text-align: left;
 /* top: 38%; */
 /* top: 1%; */
 /* background-color: deeppink; */
-font-size: 1.7rem;
+font-size: 1.5rem;
 margin-bottom: 5rem;
+font-weight: 400;
+font-family: 'Heebo', sans-serif;
 
 }
 
@@ -1401,9 +1422,13 @@ margin: 10rem;
 /* margin:0rem 5rem 0rem 5rem; */
 margin: 3rem 1rem 3rem 1rem;
 padding: 1rem;
-border: 1px solid  rgba(22, 166, 176, 0);
+/* border: 1px solid  rgba(22, 166, 176, 0);
+color: rgb(0, 0, 0); */
+font-weight: 700;
 
-color: #888;
+color: #FBB53D;
+border: 1px solid  rgb(0, 0, 0);
+border-radius: .50rem;
 
 
 
@@ -1415,19 +1440,11 @@ color: #888;
 }
 .navigation_projects a:hover {
 
-color: #16A7B0;
-/* color: rgb(240, 128, 128); */
-
-
-border: 1px solid  #16A7B0;
-border-radius: .50rem;
-/* box-shadow: 2px 2px 5px grey;  */
-
-/* box-shadow: 2px 2px 5px grey; 
-color: #888;
-transition: .50s; */
-
-
+/* color: #F6615A; */
+/* color: #FBB53D;
+border: 1px solid  rgb(0, 0, 0);
+border-radius: .50rem; */
+box-shadow: 2px 2px 5px grey; 
 
 
 }
@@ -1443,18 +1460,21 @@ font-size:1.20rem;
 font-weight: 400;
 /* margin: 2rem 10rem 2rem 10rem; */
 margin: 10rem;
+color: #FBB53D;
+/* border: 1px solid  rgb(0, 0, 0); */
 
 }
 .navigation_projects a{
 /* padding: 4rem; */
 display: flex;
+border: 1px solid  rgb(0, 0, 0);
 
 /* background-color: brown; */
 /* margin:0rem 5rem 0rem 5rem; */
 margin: 2rem 1rem 0rem 1rem;
 padding: 1rem;
 flex-direction: column;
-border: 1px solid  rgb(195, 218, 220);
+border: 1px solid  rgb(0,0,0);
 border-radius: .50rem;
 
 
@@ -2315,7 +2335,7 @@ padding: 0rem 0rem 2rem 2.2rem;
 
   .home_image{
     width: 70%;
-    border: 1px solid #16A7B0;
+    /* border: 1px solid #FBB53D; */
     border-radius: 100%;
     margin: 0rem;
     }
@@ -2323,6 +2343,7 @@ padding: 0rem 0rem 2rem 2.2rem;
   .home_image_div:hover .home_image{
 
     /* border: 1px solid rgb(52, 219, 177); */
+    border: 1px solid #000000;
     box-shadow: 2px 2px 5px grey; 
     color: #888;
     transition: .50s;
@@ -2331,15 +2352,16 @@ padding: 0rem 0rem 2rem 2.2rem;
   }
 
   .home_text_footer {
-    color: rgb(240,240,240);
+    color: transparent;
     font-size: 1rem;
     margin: 0rem;
 }
 
 .home_image_div:hover  .home_text_footer {
-    color: #888;
+    color: #FBB53D;
     /* background-color: aquamarine; */
     transition: .75s;
+    font-weight: 700;
   }
 
 
