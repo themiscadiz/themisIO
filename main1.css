@@ -470,6 +470,11 @@ TEXT*/
 
 
 @media screen and (max-width: 1000px) {
+    .top {
+
+        z-index: 1;
+        top: 80vh;
+    }
     .top p{
       /* visibility: hidden; */
       font-size: 1.2rem;
