@@ -470,8 +470,7 @@ TEXT*/
 
 
 @media screen and (max-width: 1000px) {
-    .top {
-
+    .top{
         z-index: 1;
         top: 80vh;
     }
@@ -480,8 +479,11 @@ TEXT*/
       font-size: 1.2rem;
       color: #3C8868;
       font-weight: 900;
+      top: 80vh;
+    }
     }
   }
+
 @media screen and (max-width: 700px) {
     canvas {
        visibility: hidden;
