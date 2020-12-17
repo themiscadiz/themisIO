@@ -489,6 +489,10 @@ TEXT*/
         width: 100%;
         margin-top: 10rem;
     }
+    #breathing_space{
+        height: 0vh;
+        /* background-color: tomato; */
+    }
 
 
 
