@@ -1,3 +1,4 @@
+// Cover Sketch
 let pos = 0.5;
 let largo = 0.5;
 let swingMotion = false;
