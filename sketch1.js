@@ -3,6 +3,7 @@ let largo = 0.5;
 let swingMotion = false;
 let motion = 0;
 let easing = 0.05;
+let neweasing = 0.02;
 let diameter;
 
 function setup() {
@@ -44,8 +45,22 @@ function draw() {
   
  
   push();
-  translate(widthSize / 2, heightSize / 2-50);
+  translate(widthSize / 2, heightSize / 2-20);
   // rotate(a);
+
+  if (mouseIsPressed) {
+    motion = -0.01;
+    let newtargetX = motion;
+    let newdx = newtargetX - a;
+    pos += newdx * neweasing;
+    rotate(pos);
+  } else {
+    // motion = -0.01;
+    // pos = pos + motion;
+    rotate(pos);
+  }
+
+
   rotate(pos);
   noStroke();
   fill(semi);
@@ -60,10 +75,19 @@ function draw() {
   let dx = targetX - pos;
   pos += dx * easing;
 
+  // if (swingMotion) {
+  //   if (pos > 0.3) {
+  //     motion = -0.01;
+  //   } else if (pos < -0.3) {
+  //     motion = 0.01;
+  //   }
+  //   pos = pos + motion;
+  // }
+
   if (swingMotion) {
-    if (pos > 0.3) {
+    if (pos < -0.3) {
       motion = -0.01;
-    } else if (pos < -0.3) {
+    } else if (pos > 0.3) {
       motion = 0.01;
     }
     pos = pos + motion;
@@ -72,7 +96,7 @@ function draw() {
 }
 
 function mouseWheel(event) {
-  pos += event.delta * 0.02;
+  pos += event.delta * 0.01;
   largo += event.delta * 0.05;
   swingMotion = true;
 }
