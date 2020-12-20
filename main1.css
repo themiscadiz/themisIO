@@ -334,9 +334,11 @@ TEXT*/
     z-index: 1;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 3rem 0rem 3rem 3rem;
+    color: #000000;
   }
   #cover_resume p {
     margin-top: 2rem;
+    color: #000000;
   }
   #cover_resume:hover {
     /* background-color: #E7622A; */
@@ -344,7 +346,16 @@ TEXT*/
     font-weight: 800;
     background-color: #276EED;
     transition: .5s;
+    color: #000000;
   }
+  #cover_resume:link {
+    color: #000000;
+  }
+  #cover_resume:visited {
+    color: #000000;
+  }
+
+
   #eyes{
     display: flex;
     padding-top: 2rem;
