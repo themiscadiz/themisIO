@@ -437,6 +437,12 @@ TEXT*/
 
 
 @media screen and (max-width: 1200px) {
+
+  .project_intro_p{  
+    width: 95%;
+    /* background-color: salmon; */
+
+  }
   #intro{
 
     /* background-color: lightsalmon; */
@@ -485,6 +491,8 @@ TEXT*/
       font-weight: 900;
       top: 80vh;
     }
+
+
   }
 
 @media screen and (max-width: 700px) {
@@ -599,22 +607,33 @@ padding-top: 1rem;
 
 }
 
+.project_image_pic{
+  width: 100%;
+  padding: 1rem;
+  margin-top: 25%;
+}
+
 #project-color-1{
     background-color: #FBB53D;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   
   }
   #project-color-2{
-    background-color: #172934;
+    background-color: #E37359;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   
   }
   #project-color-3{
-    background-color: #0B5B83;
+    background-color: #172934;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   
   }
   #project-color-4{
+    background-color: #0B5B83;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  #project-color-5{
     background-color: #F7615A;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   
@@ -747,6 +766,7 @@ padding-top: 1rem;
     margin: 0rem;
     left: 0rem;
   }
+
 }
 
 @media screen and (max-width: 700px) {
