@@ -2641,6 +2641,13 @@ margin-bottom: 4rem;
 .title_section{ 
 font-size:1.50rem;
 }
+h1{
+font-size:2rem;
+padding: 1rem 0rem 1rem 0rem;
+margin: 1rem 5rem 1rem 0rem ;
+/* background-color: #FBB53D; */
+
+}
 }
 
 
