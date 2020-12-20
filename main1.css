@@ -75,7 +75,7 @@ TEXT*/
     font-size: 1.3rem;
     color: #3C8868;
 }
-#menu_word{
+.menu_word{
     font-size: .90rem;
     font-weight: 500;
     /* font-family: 'Heebo', sans-serif; */
@@ -200,6 +200,8 @@ TEXT*/
 }
 
 
+
+
 @media screen and (max-width: 1000px) {
   .top {
     /* visibility: hidden; */
@@ -320,7 +322,58 @@ TEXT*/
   
   /* FINISH MENU BUTTON */
   
-  
+  #cover_resume{
+    /* background-color:#3C8868; */
+
+    background-color: #52B56D;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 2rem; /* Position the navbar at the top of the page */
+    right: 2rem;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 3rem 0rem 3rem 3rem;
+  }
+  #cover_resume p {
+    margin-top: 2rem;
+    
+
+  }
+  #cover_resume:hover {
+    /* background-color: #E7622A; */
+    
+    font-weight: 800;
+    background-color: #276EED;
+    transition: .5s;
+  }
+  #eyes{
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    
+  }
+  .eye{
+    width: 7px;
+    height: 2px;
+    margin: 5px;
+    background-color: #000000;
+    border-radius: 3rem 3rem 3rem 3rem;
+  }
+  #cover_resume:hover .eye{
+    width: 10px;
+    height: 10px;
+    transition: .5s;
+  }
+
+
+/* 
+  .name_span_intro{
+    color:rgb(0, 0, 0);
+    font-size: .90rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+  } */
   
   /* MENU BUTTON RESPONSIVE */
   
@@ -607,6 +660,10 @@ padding-top: 1rem;
 
 }
 
+.project_image img{
+  border-radius: 2rem;
+}
+
 .project_image_pic{
   width: 100%;
   padding: 1rem;
@@ -662,6 +719,7 @@ padding-top: 1rem;
   font-size: 3rem;
   margin-top: 1rem;
   color: rgb(63, 63, 63);
+
 }
 
 
@@ -707,17 +765,6 @@ padding-top: 1rem;
   transition: .50s;
   border: 1px solid #000000;
   color: #FBB53D;
-}
-
-.name_span_intro{
-  /* color: rgb(240, 128, 128); */
-  color:rgb(0, 0, 0);
-  font-size: 1.5rem;
-  font-weight: 400;
-  font-family: 'Poppins', sans-serif;
-
-  /* font-family: 'Playfair Display', serif;
-  font-family: 'Overpass', sans-serif; */
 }
 
 #about_intro{
