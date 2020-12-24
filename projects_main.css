@@ -288,7 +288,12 @@ display: block;
 
 /* FINISH MENU BUTTON */
 
+/* .frame_video{
 
+    width:100%;
+    height:100%;
+
+} */
 
 /* TEXT RESPONSIVE */
 @media screen and (max-width: 700px) {
@@ -359,7 +364,7 @@ background: linear-gradient(45deg, rgba(99,94,215,1) 3%, rgba(171,80,115,1) 85%)
     text-align: left;
     width: 50vw;
     margin: 0rem 0rem 6rem 0rem;
-    margin-left: 20vw;
+    margin-left: 15vw;
     /* margin-left: 25rem; */
     /* background-color: #FBB53D; */
    
@@ -1259,7 +1264,7 @@ padding: 1rem;
 }
 
 .part_2 li a:visited{
-color: #f1f1f1;
+    color: #000000;
 
 }
 

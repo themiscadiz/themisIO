@@ -1,5 +1,6 @@
 // Cover Sketch
 let pos = 0.5;
+// let pos = 0;
 let largo = 0.5;
 let swingMotion = false;
 let motion = 0;
@@ -97,7 +98,8 @@ function draw() {
 }
 
 function mouseWheel(event) {
-  pos += event.delta * 0.01;
+  // pos += event.delta * 0.01;
+  pos += event.delta * 0.003;
   largo += event.delta * 0.05;
   swingMotion = true;
 }
