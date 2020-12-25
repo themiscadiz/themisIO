@@ -790,7 +790,16 @@ padding-top: 1rem;
 .name_span{
   /* color: rgb(240, 128, 128); */
   color:#3C8868;
+  /* color: #FBB53D; */
+
   font-size: 1.8rem;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+
+}
+.name_span_secondary{
+  color:#3C8868;
+  font-size: 1.4rem;
   font-weight: 800;
   font-family: 'Poppins', sans-serif;
 
