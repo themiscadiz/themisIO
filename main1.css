@@ -202,6 +202,8 @@ TEXT*/
 
 
 
+
+
 @media screen and (max-width: 1000px) {
   .top {
     /* visibility: hidden; */
@@ -804,6 +806,9 @@ padding-top: 1rem;
   font-family: 'Poppins', sans-serif;
 
 }
+
+
+
       
 /* top | right | bottom | left */
 @media screen and (max-width: 1000px) {
@@ -1569,6 +1574,7 @@ cursor: pointer;
 
 
 
+
     /* ABOUT RESPONSIVE */
 
     /* @media screen and (max-width: 700px) {
@@ -1609,6 +1615,10 @@ cursor: pointer;
          
         font-size: 1rem;
       }
+
+      
+
+   
 
       #profile_pic{
         position: relative;
@@ -2387,3 +2397,15 @@ footer{
       margin-left:30%;
     }
   }
+
+  #talk_about:link{
+    color: #000000;
+    }
+    #talk_about:visited{
+      color: #000000;
+      }
+    #talk_about:hover{
+      color: #747373;
+      }
+   
+  
