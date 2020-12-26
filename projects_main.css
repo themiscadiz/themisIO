@@ -394,6 +394,17 @@ visibility: hidden;
 }
 
 
+.link-black:link{
+    color: #000000;
+    }
+.link-black:visited{
+      color: #000000;
+      }
+.link-black:hover{
+      color: #747373;
+      }
+
+
 /* PROJECT INTRODUCTION */
 .short_info_project{
 /* margin-top: 2rem; */
