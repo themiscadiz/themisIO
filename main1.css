@@ -906,6 +906,7 @@ visibility: visible;}
   border-radius: 2rem 2rem;
   background-color: #ECE0DE;
   color: #0d0d0d;
+  text-align: center;
 
 }
 
@@ -1031,7 +1032,7 @@ visibility: visible;}
   }
 
   .project_intro_sub{
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .project_intro_p{
@@ -1041,14 +1042,14 @@ visibility: visible;}
 
   .button_view{
     font-size: .90rem;
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
+  
+    
   }
   .button_view_intro{
     font-size: .90rem;
     padding: 1rem 2rem;
   }
-
-
 }
      
     
@@ -1423,7 +1424,7 @@ cursor: pointer;
       }
 
       .exploration_section{
-
+/* background-color: #9d88c4; */
         /* position: relative;
         display: flex;
         justify-content: center;
@@ -1494,7 +1495,7 @@ cursor: pointer;
         flex-direction: column;
         justify-content: center;
 
-        /* background-color: burlywood;  */
+        /* background-color: #aaaaaa; */
 
         width: 90%; 
         margin-bottom: 2rem;
@@ -1527,6 +1528,7 @@ cursor: pointer;
         justify-content: right;
         margin: 0rem 0rem 0rem 0rem;
         width: 80%;
+        /* left:10%; */
      }
 
      .half-other_work{
@@ -1591,6 +1593,7 @@ cursor: pointer;
 
     #about{
       width: 100%;
+      /* background-color: antiquewhite; */
     }
 
 
@@ -1787,7 +1790,7 @@ cursor: pointer;
     }
     /* FOOTER */
     footer{
-      /* background-color: rgb(240,240,240); */
+      
       background-color: #F8F8F8;
     
       text-decoration: none;
