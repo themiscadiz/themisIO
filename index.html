@@ -22,10 +22,8 @@
     <!-- adding p5js -->
     <script src="p5.js"></script>
     <script src="p5.dom.js"></script>
-    <!-- <script src="sketch.js"></script> -->
-    <script src="sketch1.js"></script>
-
-    <script src="profileSketch.js"></script>
+    <!-- <script src="sketch1.js"></script>
+    <script src="profileSketch.js"></script> -->
 
 
 
@@ -77,36 +75,75 @@
 
 
         <!-- NAVIGATION MENU -->
+
+        <header>
+            <div id="nav_home">
+                <a href="index.html"><img src="assets/icon-04.png" id="icon-image"alt=""></a>
+            </div>
+            <div id="navigation">
+                <a href="#projects">Projects</a>
+                <a href="#explorations">Explorations</a>
+                <a href="#about">About</a>
+                <a href="assets/resume_themis_garcia.pdf" target="_blank">Resumé</a>
+            </div>
+        </header>
+
         <!-- ≡ -->
         <div class="dropdown" alt="interactive menu on top. There is a ccessible menu on botton">
-            <!-- <section id = "home"></section> -->
-            <button onclick="myFunction()" class="dropbtn" id="btn">+</button>
+            <button onclick="myFunction()" class="dropbtn" id="btn">☰</button>
             <nav id="myDropdown" class="dropdown-content">
-                <a href="#home">Home</a>
+                <a href="index.html">Home</a>
                 <a href="#projects">Projects</a>
-                <a href="#prototypes">Prototypes</a>
-                <a href="#whoami">Who am I</a>
-                <a href="#sayhi">Say Hi!</a>
-                <a href="assets/resume_themis_garcia.pdf" target="_blank"> <span class="symbol">☟</span>RESUMÉ</a>
-
-
-
+                <a href="#explorations">Explorations</a>
+                <a href="#about">About</a>
+                <a href="assets/resume_themis_garcia.pdf" target="_blank">Resumé</a>     
             </nav>
-            <p class="menu_word">Menu</p>
+            <!-- <p class="menu_word">Menu</p> -->
         </div>
+
+         <!-- NAVIGATION MENU -->
+
+        <div id="hero-image">
+            <img src="assets/background.png" id="background-image" alt="">
+        <div id="hero-content">
+            <div id="intro">
+                <h1 class="positionIntro_h1">I'm <span>Themis</span>.</h1>
+                <h2 class="positionIntro_h2">I love to research 🔍, prototype 👩🏾‍💻, and design 💡.
+                </br>I'm interested in designing meaningful experiences for humans. I'm currently a Master's candidate in Design and Technology at ITP NYU (May 2021).
+                </br><b>Seeking full-time opportunities.</b>
+    
+                </h2>
+                <a class="button_view_intro" href="#projects" class="name_span_intro">Check out my work ↓</a>
+            </div>
+            <div id="profile-hero">
+                <img src="assets/profileIcon.png" id="profile-hero-image"alt="">
+            </div>
+         </div>
+            <!-- <div id="intro">
+                <div id="hero-text">
+                <h1>I'm <span>Themis</span>.</h1>
+                <p>I 🔍 research, 💡design & 👩🏾‍💻prototype. I'm a product designer interested in the intersection between human cognition, art and emerging technologies. I'm currently pursuing a Master's degree in Tech and Design at ITP.</p></div>
+                <button id="hero-button">Check out my work.</button>
+            </div>
+            <div>
+                <img src="assets/profileIcon.png" id="profile-hero-image"alt="">
+            </div> -->
+        </div>
+
     </section>
 
     <!-- <section id="home"> -->
-    <section id="sketch" alt="animation of colors"> </section>
 
-    <div>
+    <!-- <section id="sketch" alt="animation of colors"> </section> -->
+
+    <!-- <div>
         <img src="assets/homecover.png" id="homeCoverImage"
             alt="Two set of blocks. One is a screen an the other has the drawing of a plant and the other with a coffee mug."
             width="50%">
 
-    </div>
+    </div> -->
 
-    <section>
+    <!-- <section>
         <a class="button_resume_cover" id="cover_resume" href="assets/resume_themis_garcia.pdf " target="_blank">
             <div id="eyes">
                 <div class="eye"></div>
@@ -116,7 +153,7 @@
             <p class="menu_word">Resumé</p>
         </a>
 
-    </section>
+    </section> -->
 
 
 
@@ -151,11 +188,11 @@
 
         </section> -->
 
-    <div class="top">
+    <!-- <div class="top">
         <div class="title">
             <p>View work ↓</p>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -177,7 +214,7 @@
     <section id="breathing_space"></section>
     <!-- Project Section -->
     <section id="projects">
-        <h2 class="title_section">Projects</h2>
+        <h2 class="title_section"></h2>
         <!-- <h2 class="positionIntro_h1">Selected Work</h2> -->
 
         <div class="project_overview">
@@ -321,9 +358,13 @@
     <!-- ************************************************************************ -->
 
     <!-- Exploration Section -->
-    <section id="prototypes">
+    <section id="explorations">
 
-        <h2 class="title_section">Prototypes</h2>
+
+
+        <h2 class="title_section">Design Explorations</h2>
+        <p class="title_section_p">Here some explorations about subject that I am interested about and played with it in rapid projects. </p>
+       
 
         <div id="other_work_overview">
             <!--  -->
@@ -342,14 +383,25 @@
                                 class="image">
 
                             <div class="overlay">
-                                <div class="text">
+                                <div class="plus-button">
+                                    <img src="assets/other_work/plus-03.png" alt=""
+                                 class="image-plus">
+                                </div>
+                            </div>
+                                <!-- <div class="text">
                                     <div class="line_style">
                                         <p></p>
                                     </div>
                                     <h3>Shared AR</h3>
                                     <p>Augmented Reality ● Multi-player</p>
-                                </div>
+                                </div> 
+                            </div>-->
+
+                            <div class="text">
+                                <h3>Shared AR</h3>
+                                <p>Augmented Reality + Multi-player</p>
                             </div>
+
                         </button>
                     </div>
 
@@ -399,7 +451,7 @@
                         <button class="myBtn">
                             <img src="assets/other_work/02.png"
                                 alt="Close up of the website with and image of a dog and a bird." class="image">
-                            <div class="overlay">
+                            <!-- <div class="overlay">
                                 <div class="text">
                                     <div class="line_style">
                                         <p></p>
@@ -407,7 +459,20 @@
                                     <h3>FreeForm</h3>
                                     <p>Real-time Web App ● Art</p>
                                 </div>
+                            </div> -->
+
+                            <div class="overlay">
+                                <div class="plus-button">
+                                    <img src="assets/other_work/plus-03.png" alt=""
+                                 class="image-plus">
+                                </div>
                             </div>
+
+                            <div class="text">
+                                <h3>FreeForm</h3>
+                                <p>Real-time Web App + Art</p>
+                            </div>
+
                         </button>
                     </div>
 
@@ -468,7 +533,7 @@
                                 alt="Phone with open app that show location of farms in a map of Puerto Rico."
                                 class="image">
 
-                            <div class="overlay">
+                            <!-- <div class="overlay">
                                 <div class="line_style">
                                     <p></p>
                                 </div>
@@ -478,6 +543,18 @@
                                     <h3>Sounds of the Amazon</h3>
                                     <p>Data Visualization ● Visual Journalism</p>
                                 </div>
+                            </div> -->
+
+                            <div class="overlay">
+                                <div class="plus-button">
+                                    <img src="assets/other_work/plus-03.png" alt=""
+                                 class="image-plus">
+                                </div>
+                            </div>
+
+                            <div class="text">
+                                <h3>Sounds of the Amazon</h3>
+                                <p>Data Visualization + Visual Journalism</p>
                             </div>
                         </button>
                     </div>
@@ -553,7 +630,7 @@
                         <button class="myBtn">
                             <img src="assets/other_work/04.png"
                                 alt="Close up of the website with and image of a dog and a bird." class="image">
-                            <div class="overlay">
+                            <!-- <div class="overlay">
                                 <div class="text">
                                     <div class="line_style">
                                         <p></p>
@@ -561,6 +638,18 @@
                                     <h3>Enlight</h3>
                                     <p>Meditation ● Digital Fabrication</p>
                                 </div>
+                            </div> -->
+
+                            <div class="overlay">
+                                <div class="plus-button">
+                                    <img src="assets/other_work/plus-03.png" alt=""
+                                 class="image-plus">
+                                </div>
+                            </div>
+
+                            <div class="text">
+                                <h3>Enlight</h3>
+                                <p>Meditation + Digital Fabrication</p>
                             </div>
                         </button>
                     </div>
@@ -621,7 +710,7 @@
                             <img src="assets/other_work/05.png" alt="Cartoon illustration of a landscape."
                                 class="image">
 
-                            <div class="overlay">
+                            <!-- <div class="overlay">
                                 <div class="text">
                                     <div class="line_style">
                                         <p></p>
@@ -629,7 +718,21 @@
                                     <h3>Hurricane Data Viz</h3>
                                     <p>Visual Design ● P5.js ● UI</p>
                                 </div>
+                            </div> -->
+
+                            <div class="overlay">
+                                <div class="plus-button">
+                                    <img src="assets/other_work/plus-03.png" alt=""
+                                 class="image-plus">
+                                </div>
                             </div>
+
+                            <div class="text">
+                                <h3>Hurricane Data Viz</h3>
+                                <p>Visual Design + P5.js + UI</p>
+                            </div>
+
+                            
                         </button>
                     </div>
 
@@ -691,7 +794,7 @@
                                 alt="Phone with open app that show location of farms in a map of Puerto Rico."
                                 class="image">
 
-                            <div class="overlay">
+                            <!-- <div class="overlay">
                                 <div class="line_style">
                                     <p></p>
                                 </div>
@@ -701,7 +804,22 @@
                                     <h3>Food Sovereignty in Puerto Rico</h3>
                                     <p>UX Research ● UX/UI Design</p>
                                 </div>
+                            </div> -->
+
+                            <div class="overlay">
+                                <div class="plus-button">
+                                    <img src="assets/other_work/plus-03.png" alt=""
+                                 class="image-plus">
+                                </div>
                             </div>
+
+                            <div class="text">
+                                <h3>Food Sovereignty in PR</h3>
+                                <p>UX Research + UX/UI Design</p>
+                            </div>
+
+
+
                         </button>
                     </div>
 
@@ -776,7 +894,7 @@
     <!-- ************************************************************************ -->
 
     <!-- About Section -->
-    <section id="whoami">
+    <section id="about">
         <h2 class="title_section">Who am I?</h2>
         <div id="about_sec">
             <div id="profile_pic">
@@ -793,39 +911,28 @@
             </div>
             <div id="about_info">
 
-                <h2 class="project_intro_sub">Hey there! I'm <span class="name_span"> Themis </span>(she/her) 
-                    
-                    <!-- <br> I<span class="name_span_secondary"> 🔍 research</span>, <span
-                        class="name_span_secondary">💡design</span> &
-                    <span class="name_span_secondary">👩🏾‍💻prototype.</span></h2> -->
-
-                    <!-- </br><i>(Yes, is a greek mythological name Originally
-                        named by my siblings from the 80's cartoon: <a class="link_about" href="https://en.wikipedia.org/wiki/Ulysses_31"
-                        target="_blank">Space Legend Ulysses 31</a>.)</i></p> -->
-                    <!-- <p><b>I 🔍 research, 💡design & 👩🏾‍💻prototype.<br></b></p> -->
-
+                <h2 class="project_intro_sub_about">Hey there! I'm <span class="name_span"> Themis </span>(she/her). Originally from Puerto Rico, now living in <span>Brooklyn.</span></h2>
+                    <p>I'm currently pursuing a Master's degree in Tech and Design at Interactive Telecommunications Program at NYU. <i>Graduation date: May 2021.</i></p> 
                     <p>
-                    <!-- I am a designer who cares deeply about education, accessibility, and community empowerment. -->
-                    <br><b class="name_span_secondary">I 🔍 research, 💡design & 👩🏾‍💻prototype.</b><br><br>Currently,
-                    I am a masters candidate at <b>ITP/NYU</b> 2021.
-                    <br>
-
                     I hold a Post-Graduate Degree in Usability, UX and Interaction Design from Universitat Pompeu Fabra
                     in Barcelona, Spain.
-                    <br>
+                    </p>
+                    <p>
+                   
 
                     My work ranges from developing products and services for people with a diversity of
                     disabilities and socio-economic constraints,
                     to designing affordable solar energy kits for climate resilience.
                 </p>
-                <p>Looking to connect? <a href="#sayhi" id="talk_about"><b>Let's Talk!</b></a></p>
+                <!-- <a href="assets/resume_themis_garcia.pdf " target="_blank">↳ Resumé</a> -->
+                <p>Check out my <a href="assets/resume_themis_garcia.pdf " target="_blank"><b>Resumé</b></a></p>
 
-                <p>Originally from <span class="name_span">Puerto Rico</span>, now living in <span
-                        class="name_span">Brooklyn</span>, NY.</p>
+                <!-- <p>Originally from <span class="name_span">Puerto Rico</span>, now living in <span
+                        class="name_span">Brooklyn</span>, NY.</p> -->
 
 
                 <div class="resume_style_div">
-                    <a class="button_view" href="assets/resume_themis_garcia.pdf " target="_blank">↳ Resumé</a>
+                    <a class="button_view" href="#contact">Let's Talk!</a>
                 </div>
 
             </div>
@@ -843,14 +950,16 @@
         <hr>
         <!-- <h2 class="title_section">Contact Me</h2> -->
 
-        <div id="sayhi">
+        <div id="contact">
 
             <!-- Contact Info -->
 
             <div id="contact_info">
 
-                <img src="assets/about/plane-yellow-01.png" class="icon_plane_image" alt="Icon of a paper airplane.">
-                <h2 class="title_section_footer">↯ Say Hi!</h2>
+                <!-- <img src="assets/about/plane-yellow-01.png" class="icon_plane_image" alt="Icon of a paper airplane.">
+                <h2 class="title_section_footer">↯ Say Hi!</h2> -->
+
+
                 <!-- <p>themiscadiz@gmail.com</p> -->
                 <!-- </br></br> -->
 
@@ -932,7 +1041,7 @@
                     src="assets/mediumLogo.png" class="logo_image" alt="Medium icon" width="30"></a> -->
 
             <!-- <p>Made for you with love and code. </p> -->
-            <p>Made from scratch with ❤️ ✌🏾.</br>Themis Garcia 2021 | All rights reserved. </p>
+            <p>Made from scratch with 💛 ✌🏾.</br>Themis Garcia 2021 | All rights reserved. </p>
         </div>
 
     </footer>

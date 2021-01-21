@@ -256,8 +256,161 @@ margin: 0rem .50rem 0rem .50rem;
     color: #888;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+  
+    background: #f8f8f8;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
+  visibility: visible;}
+  #nav_home a{
+    margin: 1rem 2rem 1rem 2rem;
+  
+  }
+  /* #navigation a{
+    margin: 1rem 2rem 1rem 2rem;
+  } */
+  
+  #navigation a {
+    /* color: #fff; */
+    margin: 1rem 1rem 1rem 1rem;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: .25rem 1rem;
+    position: relative;
+  }
+  
+  #navigation a:hover{  
+    color:#F58A6B;
+  }
+  #navigation a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background:#F58A6B;
+    /* background-color: #0d0d0d; */
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  #navigation a:hover:after { 
+    width: 100%; 
+    left: 0; 
+    
+  }
+  
+  #icon-image{
+    width:50px;
+  
+  }
+  
+  
+  /* MENU BUTTON */
+  .dropbtn {
+    visibility: hidden;
+    color: #F58A6B;
+    margin: .50rem;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    height: 50px ;
+    width: 50px ;
+    right: 0px;
+    outline: none;
+    text-shadow: 2px 2px 5px rgb(87, 87, 87);
+    /* box-shadow: 2px 2px 5px grey; */
+    z-index: 1;
+    /* background-color: #F8F8F8; */
+    background-color: transparent;
+  
+    }
+    
+    /* .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+    } */
+    
+    .dropbtn:hover{
+      color: rgb(233, 114, 81);
+    }
+    /* .dropbtn:focus {
+    background-color: rgb(220, 113, 31)
+    } */
+    
+    /* FIXED POSITION OF MENU */
+    .dropdown {
+    display: inline-block;
+    position: absolute; /* Set the navbar to fixed position */
+    top: .50rem; /* Position the navbar at the top of the page */
+    left: 4rem;
+    z-index: 1;
+    }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f1f1f1; */
+    background-color: #FEFEFE;
+   
+    /* min-width: 60px;
+    overflow: auto; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* z-index: 1;  */    
+    }
+    
+    .dropdown-content a {
+    color: black;
+    font-family: 'Heebo', sans-serif;
+    text-decoration: none;
+    display: block;
+    padding:2rem 3rem;
+    transition: 0.20s;
+    }
+    
+    .dropdown a:hover {
+    background-color:rgb(0, 0, 0);
+    background-color: #F58A6B;
+    }
+    
+    .show {
+    display: block; 
+    }
+    
+    /* FINISH MENU BUTTON */
+  
+    
+
+
+
+
+
+
 /* MENU BUTTON */
-.dropbtn {
+/* .dropbtn {
 background-color: #FBB53D;
 border-radius: 100%;
 color: white;
@@ -271,37 +424,28 @@ width: 75px ;
 outline: none;
 
 
-/* transition: width 1s, height 2s; */
 text-shadow: 2px 2px 5px rgb(87, 87, 87);
 box-shadow: 2px 2px 5px grey;
 z-index: 1;
 }
 
-/* .dropbtn:hover, .dropbtn:focus {
-background-color: #2980B9;
-} */
 
 .dropbtn:hover{
 background-color: #3C8868;
 
 
 }
-/* .dropbtn:focus {
-background-color: rgb(220, 113, 31)
-} */
 
-/* FIXED POSITION OF MENU */
 #menu_word {
     font-size: .90rem;
     font-weight: 500;
-    /* font-family: 'Heebo', sans-serif; */
     
     }
     
 .dropdown {
 display: inline-block;
-position: fixed; /* Set the navbar to fixed position */
-top: 1rem; /* Position the navbar at the top of the page */
+position: fixed; 
+top: 1rem; 
 left: 1rem;
 z-index: 1;
 }
@@ -310,10 +454,8 @@ z-index: 1;
 display: none;
 position: absolute;
 background-color: #FEFEFE;
-/* min-width: 60px;
-overflow: auto; */
+
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-/* z-index: 1;  */    
 }
 
 .dropdown-content a {
@@ -326,13 +468,12 @@ transition: 0.20s;
 
 .dropdown a:hover {
     background-color:rgb(0, 0, 0);
-    /* background-color: rgb(52, 219, 177); */
     color:white;
 }
 
 .show {
 display: block; 
-}
+} */
 
 /* FINISH MENU BUTTON */
 
@@ -356,13 +497,84 @@ display: block;
 }
 
 
-/* MENU BUTTON RESPONSIVE */
 
+
+
+
+  /* MENU BUTTON RESPONSIVE */
+  
+  @media screen and (max-width: 1200px) {
+
+    #navigation a{
+      margin: .50rem
+    }
+  
+  .dropdown {
+  
+  top: .20rem; /* Position the navbar at the top of the page */
+  left: .00rem;
+  visibility: hidden;
+  
+  }
+  
+  .dropbtn {
+  
+  font-size: 2rem;
+  
+  height: 60px ;
+  width: 60px ;
+  visibility: hidden;
+  
+  }
+  
+  
+  
+  .contac_logos{
+  
+  margin-top: 2rem;
+  
+  }
+  
+  
+  #menu_word {
+  visibility: hidden;
+  }
+  
+  
+  }
+
+  @media screen and (max-width: 700px) {
+    header{
+      visibility: hidden;
+    }
+  
+    .dropdown {
+    
+    top: .20rem; /* Position the navbar at the top of the page */
+    left: .00rem;
+    visibility: visible;
+    
+    }
+    
+    .dropbtn {
+    visibility: visible;
+    font-size: 2rem;
+    
+    height: 60px ;
+    width: 60px ;
+    
+    }
+  }
+
+
+  
+/* MENU BUTTON RESPONSIVE */
+/* 
 @media screen and (max-width: 1200px) {
 
 .dropdown {
 
-top: .20rem; /* Position the navbar at the top of the page */
+top: .20rem; 
 left: .00rem;
 
 }
@@ -391,7 +603,7 @@ visibility: hidden;
 }
 
 
-}
+} */
 
 
 .link-black:link{

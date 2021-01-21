@@ -15,10 +15,10 @@ function myFunction() {
 function myFunction2() {
 
   if (changeText) {
-    document.getElementById("btn").innerHTML = "/";
+    document.getElementById("btn").innerHTML = "⚌";
   }
   else {
-    document.getElementById("btn").innerHTML = "+";
+    document.getElementById("btn").innerHTML = "☰";
   }
 }
 
