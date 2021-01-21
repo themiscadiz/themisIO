@@ -250,6 +250,7 @@ margin: 0rem .50rem 0rem .50rem;
 .next_project_text{
     font-size: 1.2rem;
     margin:3rem 3rem 3rem 0rem;
+    color: #0d0d0d;
 }
 
 .next_project_text:hover{
@@ -299,6 +300,7 @@ header{
     display: inline-block;
     padding: .25rem 1rem;
     position: relative;
+    color: #0d0d0d;
   }
   
   #navigation a:hover{  
