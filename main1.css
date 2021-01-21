@@ -1902,7 +1902,7 @@ cursor: pointer;
         }
 
         #p_footer p{
-          font-size: 1rem;
+          font-size: .90rem;
           font-weight: 400;
         }
 
@@ -2545,11 +2545,11 @@ footer{
 @media screen and (max-width: 1200px) {
   #footer_menu a{
     margin: .20rem;
-    background-color: aqua;
+    /* background-color: aqua; */
     }
 
     #footer_menu{
-    background-color: brown;
+    /* background-color: brown; */
       margin-left:30%;
     }
   }
