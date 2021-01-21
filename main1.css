@@ -298,6 +298,7 @@ header{
 visibility: visible;}
 #nav_home a{
   margin: 1rem 2rem 1rem 2rem;
+  /* background-color: aquamarine; */
 
 }
 /* #navigation a{
@@ -306,6 +307,7 @@ visibility: visible;}
 
 #navigation a {
   /* color: #fff; */
+  /* background-color: blue; */
   margin: 1rem 1rem 1rem 1rem;
   /* text-transform: uppercase; */
   text-decoration: none;
@@ -346,6 +348,7 @@ visibility: visible;}
 
 /* MENU BUTTON */
 .dropbtn {
+  /* background-color: aquamarine; */
   visibility: hidden;
   color: #F58A6B;
   margin: .50rem;
@@ -527,9 +530,9 @@ visibility: visible;}
     }
   
     .dropdown {
-    
+    /* background-color: blue; */
     top: .20rem; /* Position the navbar at the top of the page */
-    left: .00rem;
+    left: 1rem;
     visibility: visible;
     
     }
@@ -550,17 +553,19 @@ visibility: visible;}
   display: flex;
   justify-content: space-around;
   margin-top: 7%;
+  /* background-color: blueviolet; */
 }
 #intro{
-  width: 60%;
+  width: 50%;
   /* background-color: rgb(52, 219, 177); */
   text-align: left; 
   margin-left: 10%;
+
   padding-top: 10%;
 }
 #profile-hero{
   /* background-color: #52B56D; */
-  width: 40%;
+  width: 30%;
   margin-right: 10%;
   
 }
@@ -703,7 +708,7 @@ visibility: visible;}
       }
 
       #homeCoverImage{
-        visibility: visible;
+        visibility: hidden;
         width: 100%;
         margin-top: 10rem;
     }
@@ -715,18 +720,12 @@ visibility: visible;}
 
 
   #intro{
-
-    /* background-color: plum; */
-
-    /* margin-left: 5%; */
     margin-top: 15vh;
     width: 100%;
     margin-left: 0rem ;
     /* background-color: aquamarine; */
     padding-left: 2rem;
     visibility: visible;
-
-  
   }
 
 
