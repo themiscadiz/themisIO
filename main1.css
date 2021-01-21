@@ -1041,7 +1041,13 @@ visibility: visible;}
 
   .button_view{
     font-size: .90rem;
+    padding: 1rem 4rem;
   }
+  .button_view_intro{
+    font-size: .90rem;
+    padding: 1rem 2rem;
+  }
+
 
 }
      
